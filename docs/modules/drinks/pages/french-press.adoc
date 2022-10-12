@@ -1,0 +1,9 @@
+= French Press
+
+== Recipe
+|===
+|Ingredients:
+| 4 tbs of whole coffee bean
+| 2 cups water
+|===
+

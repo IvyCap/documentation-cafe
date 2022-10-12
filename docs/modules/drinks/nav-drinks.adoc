@@ -1,0 +1,7 @@
+* Drinks
+** Coffee
+*** xref:french-press.adoc[French Press]
+*** xref:bulletish-coffe.adoc[Bulletish Coffee]
+
+** Coctails
+*** xref:winters-kiss.adoc[Winter's Kiss]

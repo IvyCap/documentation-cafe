@@ -1,0 +1,107 @@
+= Asciidoc Quick Reference Guide
+:toc: right
+
+== Text Formating 
+
+
+.*Bold* 
+----
+*constrained*  
+**un**constrained
+----
+
+._Italics_ 
+----
+_constrained_  
+__un__constrained
+----
+
+.*_Bold Italics_* 
+----
+*_constrained_*  
+**__un__**constrained
+----
+
+.`Monospace`
+----
+`constrained`  
+``un``constrained
+----
+
+.`*Monospace Bold*` 
+----
+`constrained`  
+``**un**``constrained
+----
+
+.`_Monospace Italic_`
+----
+`_constrained_`  
+``__un__``constrained
+----
+
+.`*_Monospace Bold Italic_*`
+----
+`*_constrained_*`  
+``**__un__**``constrained
+----
+
+== Section Titles and Levels
+----
+= Document Title - Level 0
+
+== Section Title - Level 1
+
+=== Section Title - Level 2
+
+==== Section Title - Level 3
+
+===== Section Title - Level 4
+
+====== Section Title - Level 5
+
+== Section Title - Level 1
+----
+
+== Lists
+=== Orderd Lists
+----
+. One
+. Two
+.. Two a
+. Three
+.. Three a
+... Three a i
+.. Three b
+. Four
+----
+
+. One
+. Two
+.. Two a
+. Three
+.. Three a
+... Three a i
+.. Three b
+. Four
+
+=== Unordered Lists
+----
+* Point 1
+** sub Point 1
+* Point 2
+** sub Point 2
+*** sub sub Point 2
+* Point 3
+----
+
+* Point 1
+** sub Point 1
+* Point 2
+** sub Point 2
+*** sub sub Point 2
+* Point 3
+
+=== Description Lists
+
+=== Mixed Lists

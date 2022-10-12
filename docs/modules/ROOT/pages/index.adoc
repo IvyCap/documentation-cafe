@@ -1,0 +1,23 @@
+= The Documentation Cafe =
+:toc: right
+
+== Hello and Welcome to the Documentation Cafe! 
+
+Please feel free to head over to the counter, grab a drink or some food. Then kick back and peruse the documentation in our library.  
+
+The house music is provided by Lofi Girl which you can https://youtu.be/jfKfPfyJRdk[listen to here, window=blank]. Feel free to play your own music or have a quite time. 
+
+
+
+=== What is the Documentation Cafe
+Documentation Cafe is a personal project with the following goals:
+
+. Practice technical writing
+. Document my interest
+. Provide me with a porfolio
+
+=== Contribute
+If you want to contribute to the Documnetation Cafe, please submit an issue on our Github page. 
+
+=== Licsense 
+
