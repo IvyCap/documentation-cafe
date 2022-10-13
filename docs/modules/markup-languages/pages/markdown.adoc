@@ -32,7 +32,7 @@ __bold__
 ----
 <sub>Sub Script Text</sub>
 ----
-.Supper Sub Script
+.Super Sub Script
 ----
 <sup>Super Sub Script Text</sup>
 ----
@@ -80,19 +80,19 @@ __bold__
 === Ordered
 ----
 1. First item
-2. second item
-3. third item
+2. Second item
+3. Third item
 ----
 . First item
-. second item
-. third item
+. Second item
+. Third item
 
 === Mixed
 ----
 1. First item
     - sub bulleted item. add 4 spaces
 2. second item
-    -. add 4 spaces to indent sub item in list
+    - add 4 spaces to indent sub item in list
         * add additional 4 spaces
 ----
 . First item
@@ -121,30 +121,47 @@ __bold__
 #### Forth tier header
 ##### five tier header
 ###### sixth tier header
+## Second tier header
 ----
 
 == Horizontal line
 ----
---- three hyphens
-*** three asterisks
-___ three under scores
-----
+Three hyphens
+
 --- 
 
-***
-___
+Three asterisks
+
+*** 
+
+Three underscores
+
+___ 
+----
+
+Three hyphens
+
+--- 
+
+Three asterisks
+
+*** 
+
+Three underscores
+
+___ 
+
 
 == Quotes
 ----
-> "I make jessica Simpson look like a rocket scientist"
-- Tara Reid, actress
+> This is quoted text
+>-- Some Person
 ----
 
 The quote will look like this:
 
-    “I make Jessica Simpson look like a rock scientist.”
-    —Tara Reid, actress
-
+"This is quoted text"
+-- Some Person
 
 == Code Block
 3 backticks above an below code.  
