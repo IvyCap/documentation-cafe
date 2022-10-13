@@ -14,7 +14,6 @@ Documentation Cafe is a personal project with the following goals:
 
 . Practice technical writing
 . Document my interest
-. Provide me with a porfolio
 
 === Contribute
 If you want to contribute to the Documnetation Cafe, please submit an issue on our Github page. 
