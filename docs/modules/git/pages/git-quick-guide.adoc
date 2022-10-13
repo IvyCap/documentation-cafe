@@ -40,22 +40,56 @@ Add changes from Committed to destination repo
 ----
 
 == Changing, and Setting Stages, and Commits  
-=== git add <*Source*>
-* Add changes from Unstaged to Staged
-    * Use **git add .** to add all files in directory
-    * Use **git add fileName** to add a specific file  
+=== git add
 
-=== git commit -m "message"
-* Add changes from Staged to Committed
+.Add changes from Unstaged to Staged
+----
+    git add <*Source*>
+----
+
+.add all files in directory
+----
+    git add .
+----
+.add a specific file
+----
+    git add fileName  
+----
+
+=== git commit
+
+.Add changes from Staged to Committed with a note
+----
+    git commit -m "message"
+----
 
 === git checkout
 * To revert changes(*Move Head*) to a specific commit.
-    * Use **git history** to get UUID for commit
-    * User **git checkout <*UUID*>** to revert to a specific commit
-    * Use **git checkout master** to revert to the master commit
-    * Use **git checkout tags/<*TagName*>** to check out a tags
-    * Use **git checkout <*branchName*>** to move to a branch
-    * Use **git checkout -b <*branchName*>** to create new branch and move to it.
+
+.get UUID for commit
+----
+    git history
+----
+.revert to a specific commit
+----
+    git checkout UUID
+----
+.revert to the master commit
+----
+    git checkout master
+----
+.check out a tags
+----
+    git checkout tags/TagName
+----
+.move to a branch
+----
+    git checkout branchName
+----
+.create new branch and move to it.
+----
+    git checkout -b branchName
+----
 
 === git reset
 * Rest unstaged changes if they have not been Committed
@@ -63,61 +97,121 @@ Add changes from Committed to destination repo
 == Branches and Stashes
 
 === git branch
-* List branches.
-     * Use **git branch <*branchName*>** Create new branch. Does not move you to the new branch.
-     * Use **git branch -d <*branchName*>** to delete a branch
-     
+
+.List branches
+----
+    git branch
+----
+.Create new branch. Does not move you to the new branch.
+----
+    git branch branchName
+----
+.delete a branch
+----
+    git branch -d branchName
+----
+
 === git stash
-* Creates a new stash and reverts to the most resent commits
-    * Use **git stash save "StashName"** will save a stash under a name
-    * Use **git stash list** to list stashes
-    * Use **git stash pop** to restore the changes from the most recent stash
+.Creates a new stash and reverts to the most resent commits
+----
+    git stash
+----
+.save a stash under a name
+----
+    git stash save "StashName"
+----
+.list stashes
+----
+    git stash list
+----
+.restore the changes from the most recent stash
+----
+    git stash pop
+----
 
-=== git diff <*Branch1*> <*Branch2*>
-* Check differences between two branches.
+=== git diff
 
-=== git merge <*SourceBranch*>
-* Merges specified branch in to currently located branch.
-    * Use **git merge --abort** to abort a conflicting merge
+.Check differences between two branches
+----
+    git diff <*Branch1*> <*Branch2*>
+----
 
-=== git rebase <*SourceBranch*>
-* Rebase(merge) current branch with SourceBranch
+=== git merge
 
-== Tags
-**-creates name for specific commits. Use instead of UUIDs.**
+.Merges specified branch in to currently located branch
+----
+    git merge <*SourceBranch*>
+----
+.abort a conflicting merge
+----
+    git merge --abort
+----
+
+=== git rebase
+
+.Rebase(merge) current branch with SourceBranch
+----
+    git rebase SourceBranch
+----
 
 === git tag
-* List all tags
+creates name for specific commits. Use instead of UUIDs.
 
-=== git tag -a <*TagName*> -m "Update note"
-* add a tag with a name and message
+.List all tags
+----
+    git tag
+----
+.add a tag with a name and message
+----
+    git tag -a <*TagName*> -m "Update note"
+----
 
-== Set User Email and  Name
-=== git config --global user.email "you@example.com"
-* Set global user email
-
-=== git config --local user.email "you@example.com"
-* Set local repo user email
-
-=== git config --global user.name "Your Name"
-* Set global user name
-
-=== git config --local user.name "Your Name"
-* Set local repo user name
+=== got config
+Set User Email and  Name
+.Set global user email
+----
+    git config --global user.email "you@example.com"
+----
+.Set local repo user email
+----
+    git config --local user.email "you@example.com"
+----
+.Set global user name
+----
+    git config --global user.name "Your Name"
+----
+.Set local repo user name
+----
+    git config --local user.name "Your Name"
+----
 
 
 == Status and History
 === git status
-* Show current status of local repo
+
+.Show current status of local repo
+----
+    git status
+----
 
 === git log
-* Show history of reponame
-    * Use **git log --oneline** for compact version
-    * Use **git log --graph** Show commits as a graph
-    * Use **git log --graph --oneline** Show commits as a compact graph
 
-
-
+.Show history of reponame
+----
+    git log
+----
+.compact version
+----
+    git log --oneline
+----
+.Show commits as a graph
+----
+    git log --graph
+----
+.Show commits as a compact graph
+----
+    git log --graph --oneline
+----
 
 == Stages
 * **Unstaged** - made changes that may not be kept
