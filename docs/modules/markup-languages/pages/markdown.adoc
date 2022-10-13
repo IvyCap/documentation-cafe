@@ -1,0 +1,164 @@
+= Markdown Quick Reference Guide
+:toc: right
+
+This guide specifically covers the https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown[GitHub Flavored markdown]
+
+
+== Text Formating
+
+._Italics_
+----
+*italics*
+_italics_
+----
+.*Bold*
+----
+**bold**
+__bold__
+----
+.*_Bold & Italics_*
+----
+***Bold & Italics***
+----
+.*Bold & _Nested Italics_*
+----
+**Bold & _Nested Italics_**
+----
+.[.line-through]#Strickthrough#
+----
+~~strickthrough~~
+----
+.Sub Script
+----
+<sub>Sub Script Text</sub>
+----
+.Supper Sub Script
+----
+<sup>Super Sub Script Text</sup>
+----
+.Hidden Text
+----
+<Hidden Text>
+----
+
+== Links
+=== Web Links
+----
+[Weblink text](https://link.link/subpage)
+----
+=== Image
+----
+![Image](https://link.link/image.png)
+
+![Image](../path/to/image.png)
+
+----
+
+
+== Lists
+=== Unordered
+----
+* first item
+   * add four spaces for sub item
+* Second item
+----
+* first item
+** add four spaces for sub item
+* Second item
+
+----
+- first item in the list
+- second item in the list
+    - add 4 spaces to indent sub item in list
+----
+
+* first item in the list
+* second item in the list
+** add 4 spaces to indent sub item in list
+
+
+=== Ordered
+----
+1. First item
+2. second item
+3. third item
+----
+. First item
+. second item
+. third item
+
+=== Mixed
+----
+1. First item
+    - sub bulleted item. add 4 spaces
+2. second item
+    -. add 4 spaces to indent sub item in list
+        * add additional 4 spaces
+----
+. First item
+** sub bulleted item. add 4 spaces
+. second item
+** add 4 spaces to indent sub item in list
+*** add additional 4 spaces
+
+=== Task
+----
+- [ ] Task 1
+- [x] Task 2
+- [ ] Task 3
+----
+
+* [ ] Task 1
+* [x] Task 2
+* [ ] Task 3
+
+
+== Headers
+----
+# First tier header
+## Second tier header
+### Third tier header
+#### Forth tier header
+##### five tier header
+###### sixth tier header
+----
+
+== Horizontal line
+----
+--- three hyphens
+*** three asterisks
+___ three under scores
+----
+--- 
+
+***
+___
+
+== Quotes
+----
+> "I make jessica Simpson look like a rocket scientist"
+- Tara Reid, actress
+----
+
+The quote will look like this:
+
+    “I make Jessica Simpson look like a rock scientist.”
+    —Tara Reid, actress
+
+
+== Code Block
+3 backticks above an below code.  
+----
+```
+this is a code block
+```
+----
+----
+this is a code block
+----
+
+== In Line Code
+----
+I thinks you should use an `<addr>` element here instead.
+----
+I thinks you should use an `<addr>` element here instead.

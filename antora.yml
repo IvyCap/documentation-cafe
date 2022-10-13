@@ -12,4 +12,5 @@ nav:
 - modules/drinks/nav-drinks.adoc
 - modules/food/nav-food.adoc
 - modules/markup-languages/nav-markup-lang.adoc
+- modules/git/nav-git.adoc
 

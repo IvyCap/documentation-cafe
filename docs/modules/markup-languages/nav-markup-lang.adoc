@@ -2,4 +2,5 @@
 ** Asciidoc
 *** xref:asciidoc-quick-guide.adoc[Asciidoc Quick Reference Guide]
 ** Markdown
+*** xref:markdown.adoc[Markdown Quick Reference Guide]
 ** Restructured

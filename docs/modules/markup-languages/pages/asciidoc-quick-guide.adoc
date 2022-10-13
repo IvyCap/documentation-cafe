@@ -105,3 +105,14 @@ __un__constrained
 === Description Lists
 
 === Mixed Lists
+
+===  Task
+----
+* [*] Task 1
+* [x] Task 2
+* [ ] Task 3
+----
+
+* [*] Task 1
+* [x] Task 2
+* [ ] Task 3
