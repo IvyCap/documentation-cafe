@@ -63,6 +63,18 @@ __un__constrained
 == Section Title - Level 1
 ----
 
+== Paragraph
+Create a paragraph by leaving a blank line between the text. 
+----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+----
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
 == Lists
 === Orderd Lists
 ----
@@ -103,8 +115,62 @@ __un__constrained
 * Point 3
 
 === Description Lists
+----
+Item 1:: Offset text
+Item 1A::: Offest text
+
+[horizontal]
+Item 2:: Inline text
+Item 2a::: Offset text 
+Item 2ai:::: Offset text
+Item 2b::: offset text
+Item 3:: Inline text
+----
+
+Item 1:: Offset text
+Item 1A::: Offest text
+
+[horizontal]
+Item 2:: Inline text
+Item 2a::: Offset text
+Item 2ai:::: Offset text
+Item 2b::: offset text
+Item 3:: Inline text
 
 === Mixed Lists
+----
+Topic::
+Section 1:::
+. One
+* One A
+. Two
+* Two A
+** Two AI
+. Three
+Section 2:::
+* One
+. One A
+* Two
+. Two A
+.. Two AI
+* Three
+----
+
+Topic::
+Section 1:::
+. One
+* One A
+. Two
+* Two A
+** Two AI
+. Three
+Section 2:::
+* One
+. One A
+* Two
+. Two A
+.. Two AI
+* Three
 
 ===  Task
 ----
@@ -116,3 +182,167 @@ __un__constrained
 * [*] Task 1
 * [x] Task 2
 * [ ] Task 3
+
+== Links
+=== Web
+----
+https://documentation.cafe - Documentation Cafe
+
+https://documentation.cafe[Documentation Cafe]
+
+https://documentation.cafe[info@documentation.cafe]
+----
+https://documentation.cafe - Documentation Cafe
+
+https://documentation.cafe[Documentation Cafe]
+
+https://documentation.cafe[info@documentation.cafe]
+
+=== Releative
+----
+link:index.hmtl[Docs]
+----
+link:index.hmtl[Docs]
+
+=== Inline Anchors
+----
+[[bookmark-a]]Inline anchors make arbitrary content referenceable.
+
+[#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+
+anchor:bookmark-c[]Use a cross reference to link to this location.
+
+[[bookmark-d,last paragraph]]The xref label attribute will be used as link text in the cross-reference link.
+----
+
+[[bookmark-a]]Inline anchors make arbitrary content referenceable.
+
+[#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+
+anchor:bookmark-c[]Use a cross reference to link to this location.
+
+[[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
+
+
+=== Internal Refereence to Sections & Anchors
+----
+Go to the <<Lists>> section to learn more about lists
+
+To more about <<Text Formating, formating here>>
+
+Link to <<bookmark-a, bookmark-a>> anchor
+----
+
+Go to the <<Lists>> section to learn more about lists
+
+To more about <<Text Formating, formating here>>
+
+Link to <<bookmark-a, bookmark-a>> anchor
+
+== Include Files
+include::nodejs.adoc[]
+
+== Code Block
+----
+include::nodejs.adoc[tag=src-base]
+----
+
+[source,javascript]
+----
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080); 
+----
+
+== Tables
+----
+.Table1 Title
+|===
+|Column 1 |Column 2 |Column 3
+|Cell,Column1,Row1 |Cell,Column3,Row1 |Cell,Column3,Row1
+|Cell,Column1,Row2 |Cell,Column3,Row2 |Cell,Column3,Row2
+|Cell,Column1,Row3 |Cell,Column3,Row3 |
+|===
+
+.Table2 Title
+|===
+|Column 1 |Column 2 |Column 3
+|Cell,Column1,Row1 
+|Cell,Column3,Row1 
+|Cell,Column3,Row1
+|Cell,Column1,Row2 
+|Cell,Column3,Row2
+|
+|===
+----
+
+.Table1 Title
+|===
+|Column 1 |Column 2 |Column 3
+|Cell,Column1,Row1 |Cell,Column3,Row1 |Cell,Column3,Row1
+|Cell,Column1,Row2 |Cell,Column3,Row2 |Cell,Column3,Row2
+|Cell,Column1,Row3 |Cell,Column3,Row3 |
+|===
+
+.Table2 Title
+|===
+|Column 1 |Column 2 |Column 3
+|Cell,Column1,Row1 
+|Cell,Column3,Row1 
+|Cell,Column3,Row1
+|Cell,Column1,Row2 
+|Cell,Column3,Row2
+|
+|===
+
+== Admonitions
+----
+NOTE: Please note...
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that..
+----
+
+NOTE: Please note these notes
+
+TIP: Turning off and on does fix a lot of issues
+
+IMPORTANT: Don't forget to brush your teeth
+
+WARNING: Watch out for jackalopes
+
+CAUTION: Danger Will Robinson!
+
+----
+[WARNING]
+.Quicksand
+====
+As we learned as childeren quicksand can be lurking around every corner!
+====
+----
+
+[WARNING]
+.Quicksand Warning
+====
+As we learned as childeren quicksand can be lurking around every corner!
+====
+
+== Table of Cotents
+.Table .Table of Contents shows on the default side(Left)
+----
+= Asciidoc Quick Reference Guide
+:toc:
+----
+.Table of Contents shows on the right
+----
+= Asciidoc Quick Reference Guide
+:toc: right
+----
