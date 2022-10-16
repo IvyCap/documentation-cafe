@@ -239,7 +239,7 @@ To more about <<Text Formating, formating here>>
 
 Link to <<bookmark-a, bookmark-a>> anchor
 
-== Include Files
+== Include Text from another File
 ----
   include::../../examples/include.adoc[]
 
