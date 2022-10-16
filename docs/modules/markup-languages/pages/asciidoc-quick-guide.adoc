@@ -240,7 +240,14 @@ To more about <<Text Formating, formating here>>
 Link to <<bookmark-a, bookmark-a>> anchor
 
 == Include Files
-include::nodejs.adoc[]
+----
+  include::../../examples/include.adoc[]
+
+  include::../../examples/include-with-tags.adoc[tags=tagName]
+----
+include::../../examples/include.adoc[]
+
+include::../../examples/include-with-tags.adoc[tags=tagName]
 
 == Code Block
 ----

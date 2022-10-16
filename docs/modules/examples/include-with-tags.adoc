@@ -1,0 +1,5 @@
+// tag::tagName[]
+This is text from another file using tags
+// end::tagName[]
+
+This tex should not appear with tags. 
