@@ -235,7 +235,7 @@ Link to <<bookmark-a, bookmark-a>> anchor
 
 Go to the <<Lists>> section to learn more about lists
 
-To more about <<Text Formating, formating here>>
+To learn lamore about <<Text Formating, formating here>>
 
 Link to <<bookmark-a, bookmark-a>> anchor
 
