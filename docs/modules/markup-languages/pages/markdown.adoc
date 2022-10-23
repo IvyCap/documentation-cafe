@@ -56,12 +56,18 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 == Links
 === Web
 ----
-[Weblink text](https://link.link/subpage)
+[Documentation Cafe](https://documentation.cafe/index.html)
 ----
+
+https://documentation.cafe/index.html[Documentation Cafe]
+
 === File
 ----
-[Git Guide](../../git/git-quick-guide.adoc)
+[Git Guide](https://documentation.cafe/git-quick-guide.html))
 ----
+
+https://documentation.cafe/git-quick-guide.html[Git Guide0]
+
 === Image
 ----
 ![Image](https://link.link/image.png)

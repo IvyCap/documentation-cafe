@@ -1,0 +1,8 @@
+= The Documentation Cafe Menu
+:toc: right
+
+=== Drinks
+include::../../drinks/pages/drinks-menu.adoc[tag=drinks]
+
+=== Food
+include::../../food/pages/food-menu.adoc[tag=food]

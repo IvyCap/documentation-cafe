@@ -142,35 +142,31 @@ Item 3:: Inline text
 Topic::
 Section 1:::
 . One
-* One A
 . Two
 * Two A
-** Two AI
-. Three
+** Two A
 Section 2:::
-* One
-. One A
-* Two
-. Two A
-.. Two AI
-* Three
+. One
+.. One A
+. Two
+.. Two A
+* Two AI
 ----
 
 Topic::
 Section 1:::
 . One
-* One A
 . Two
 * Two A
 ** Two AI
 . Three
 Section 2:::
-* One
-. One A
-* Two
-. Two A
-.. Two AI
-* Three
+. One
+.. One A
+. Two
+.. Two A
+* Two AI
+
 
 ===  Task
 ----
@@ -202,7 +198,7 @@ https://documentation.cafe[info@documentation.cafe]
 ----
 link:index.hmtl[Docs]
 ----
-link:index.hmtl[Docs]
+link:index.html[Docs]
 
 === Inline Anchors
 ----
@@ -315,15 +311,15 @@ http.createServer(function (req, res) {
 
 == Admonitions
 ----
-NOTE: Please note...
+NOTE: Please note these notes
 
-TIP: Pro tip...
+TIP: Turning it off and on does fix a lot of issues
 
-IMPORTANT: Don't forget...
+IMPORTANT: Don't forget to brush your teeth
 
-WARNING: Watch out for...
+WARNING: Watch out for jackalopes
 
-CAUTION: Ensure that..
+CAUTION: Danger Will Robinson!
 ----
 
 NOTE: Please note these notes
