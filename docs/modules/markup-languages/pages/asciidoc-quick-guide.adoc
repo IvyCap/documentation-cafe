@@ -1,6 +1,10 @@
 = Asciidoc Quick Reference Guide
 :toc: right
 
+Asciidoc is a  plain text markup language designed for creating technical content. It is feature rich with senamtic elements and built to be moduler with content reusability. Asciidoc can be read as is or converted in to mutiple formates including html, pdf, e-books, man pages, slide presentation and many more. 
+
+The https://asciidoc.org[Asciidoc] project is maintained by the https://asciidoc-wg.eclipse.org/[Eclipse Foundation]. The full https://docs.asciidoctor.org/asciidoc/latest/[AssciiDoc Specification is found here]
+
 == Text Formating 
 
 
@@ -194,11 +198,37 @@ https://documentation.cafe[Documentation Cafe]
 
 https://documentation.cafe[info@documentation.cafe]
 
+=== Video
+.Embedded Local
+----
+video::local-video-file.mp4[]
+
+video::loccal-video-file.mp4[width=640,start=60,opts=autoplay]
+----
+
+.Embedded Youtube
+----
+video::jfKfPfyJRdk[youtube]
+----
+
+.Embedded Vimeo
+----
+video::jfKfPfyJRdk[vinmeo]
+----
+
+=== Audio
+----
+audio::local-file.wav[]
+
+audio::local file.wav[start=60,opts=autoplay]
+----
+
 === Releative
 ----
-link:index.hmtl[Docs]
+link:markdown.adoc[Markdown Guide]
 ----
-link:index.html[Docs]
+
+link:markdown.adoc[Markdown Guide]
 
 === Inline Anchors
 ----

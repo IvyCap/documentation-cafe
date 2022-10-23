@@ -3,20 +3,22 @@
 
 == Hello and Welcome to the Documentation Cafe! 
 
-Please feel free to head over to the counter, grab a drink or some food. Then kick back and peruse the documentation in our library.  
+Please feel free to head over to link:bar.adoc[the counter], grab a drink or some food. Then kick back and peruse the link:library.adoc[documentation in our library].  
 
-The house music is provided by Lofi Girl which you can https://youtu.be/jfKfPfyJRdk[listen to here, window=blank]. Feel free to play your own music or have a quite time. 
+=== House Music
+The house music is provided by Lofi Girl which you can listen to by clicking the below video or by opening another https://youtu.be/jfKfPfyJRdk[ browser tab here, window=blank]. Feel free to play your own music or have a quite time. 
 
+video::jfKfPfyJRdk[youtube]
 
 
 === What is the Documentation Cafe
 Documentation Cafe is a personal project with the following goals:
 
-. Practice technical writing
-. Document my interest
+* Practice technical writing
+* Document my interest
 
 === Contribute
-If you want to contribute to the Documnetation Cafe, please submit an issue on our Github page. 
+If you want to contribute to the Documnetation Cafe, please https://github.com/IvyCap/documentation-cafe/issues/new[submit an issue on our Github page].
 
 === Licsense 
 
