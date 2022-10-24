@@ -1,3 +1,30 @@
 * xref:index.adoc[Hello & Welcome] 
-* xref:bar.adoc[Bar Counter - Menu]
+* xref:bar.adoc[Bar Counter]
 * xref:library.adoc[Library]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

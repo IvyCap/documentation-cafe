@@ -1,9 +1,14 @@
 = Winter's Kiss
-:toc: right
 
-== Recipe
+[CAUTION]
+.Food Blogger Nonsense
+====
+Winter's Kiss was developed when I wanted to make Death & Co's Wicked Kiss but did not have any yellow chartruese on hand. Looking through my liqure cabnet for something to replace it with I notice the bottle of allspice dram and thought I would give it a shot. Turned out I really enjoyed the mixture and it has now become one of my goto coctails. A note on history Death & Co's Wicked Kiss is based on Widow's Kiss. 
+====
+
+=== Recipe
 |===
-|Ingredients| Reccommended
+|**Ingredients:** | **Reccommended:**
 | 1 oz Rye Whisky | Elijah Craig Rye
 | 1 oz Apple Brandy | Any Calvados
 | 1/4 oz Allspice Dram | Any
@@ -17,6 +22,3 @@
 . Stir ingredients
 . Strain into a rocks glass and serve
 
-== Food Blogger Nonsense
-
-Winter's Kiss was developed when I wanted to make Death & Co's Wicked Kiss but did not have any yellow chartruese on hand. Looking through my liqure cabnet for something to replace it with I notice the bottle of allspice dram and thought I would give it a shot. Turned out I really enjoyed the mixture and it has now become one of my goto coctails. A note on history Death & Co's Wicked Kiss is based on Widow's Kiss. 

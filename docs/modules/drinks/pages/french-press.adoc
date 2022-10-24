@@ -1,9 +1,22 @@
 = French Press
 
-== Recipe
+
+
+=== Recipe
 |===
-|Ingredients:
-| 4 tbs of whole coffee bean
-| 2 cups water
+|**Ingredients:** | **Equipment:**
+| 4 tbs of whole coffee bean | French Press (2 Cups)
+| 2 cups water | Coffee Grinder
+|   | Electric or Stove-Top Kettle
 |===
 
+
+. In a electric or stove top kettle heat the water to 194°F or 90°C
+. While the water is heating up, place the whole coffee beans in a coffee grinder and grind the beans to a coarse ground.
+. Place the ground coffee in the french press
+. Once the water has reached tempature pour the water in to the frech press
+. Place the lid of the frecnh press, but do not press down the plunger
+. Let the coffee steep for 10 minutes
+. Carfully press the pluncher down on the french press
+. Let the frecnh press rest for 30 seconds to a minute
+. The french press is now ready to be served and enjoyed
