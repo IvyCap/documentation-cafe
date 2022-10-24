@@ -1,6 +1,8 @@
 = Git Quick Reference Guide
 :toc: right
 
+Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The https://git-scm.com/[Git project] is a member project of the https://sfconservancy.org/[Software Freedom Conservancy].
+
 == Cloning, Pulling, Pushing, and Fetching branches and commits  
 === git clone
 Copy/download repo or branch to local machine
@@ -16,6 +18,9 @@ Copy/download repo or branch to local machine
 ----
 === git pull
 Pulls down latest version of remote repo and merges changes into local repo.
+----
+    git pull
+----
 
 === git fetch 
 Downloads latest version of the remote repo without merging the changes.
@@ -47,7 +52,7 @@ Add changes from Committed to destination repo
     git add <*Source*>
 ----
 
-.add all files in directory
+.add all files in current directory
 ----
     git add .
 ----
@@ -64,7 +69,7 @@ Add changes from Committed to destination repo
 ----
 
 === git checkout
-* To revert changes(*Move Head*) to a specific commit.
+To revert changes(*Move Head*) to a specific commit.
 
 .get UUID for commit
 ----
@@ -92,7 +97,10 @@ Add changes from Committed to destination repo
 ----
 
 === git reset
-* Rest unstaged changes if they have not been Committed
+Rest unstaged changes if they have not been Committed
+----
+    git reset
+----
 
 == Branches and Stashes
 

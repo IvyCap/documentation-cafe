@@ -1,7 +1,7 @@
 = Markdown Quick Reference Guide
 :toc: right
 
-This guide specifically covers the https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax[GitHub Flavored markdown]
+Markdown is a lightweight markup language created in 2004. It was designed to convert easy to write text to html or xhtml. The details of the current specification known as https://commonmark.org/[CommanMark] are https://spec.commonmark.org/[found here]. To add additional functinality severl different flavors of Markdown have been developed over the years. This guide is based on the https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax[GitHub Flavored markdown]
 
 
 == Text Formating
@@ -11,19 +11,23 @@ This guide specifically covers the https://docs.github.com/en/get-started/writin
 *italics*
 _italics_
 ----
+
 .*Bold*
 ----
 **bold**
 __bold__
 ----
+
 .*_Bold & Italics_*
 ----
 ***Bold & Italics***
 ----
+
 .*Bold & _Nested Italics_*
 ----
 **Bold & _Nested Italics_**
 ----
+
 .[.line-through]#Strickthrough#
 ----
 ~~strickthrough~~
@@ -66,7 +70,7 @@ https://documentation.cafe/index.html[Documentation Cafe]
 [Git Guide](https://documentation.cafe/git-quick-guide.html))
 ----
 
-https://documentation.cafe/git-quick-guide.html[Git Guide0]
+https://documentation.cafe/git-quick-guide.html[Git Guide]
 
 === Image
 ----

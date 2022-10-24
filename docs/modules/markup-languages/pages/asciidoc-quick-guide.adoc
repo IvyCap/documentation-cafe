@@ -340,6 +340,7 @@ http.createServer(function (req, res) {
 |===
 
 == Admonitions
+.Basic Admonitions
 ----
 NOTE: Please note these notes
 
@@ -362,6 +363,7 @@ WARNING: Watch out for jackalopes
 
 CAUTION: Danger Will Robinson!
 
+.Titled Admonitions
 ----
 [WARNING]
 .Quicksand
