@@ -226,9 +226,13 @@ audio::local file.wav[start=60,opts=autoplay]
 === Releative
 ----
 link:markdown.adoc[Markdown Guide]
+
+xref:../../drinks/pages/frech-press.adoc[French Press Recipe]
 ----
 
 link:markdown.adoc[Markdown Guide]
+
+xref:../../drinks/pages/french-press.adoc[French Press Recipe]
 
 === Inline Anchors
 ----

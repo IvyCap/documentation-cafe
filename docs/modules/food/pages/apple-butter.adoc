@@ -1,3 +1,14 @@
 = Apple Butter
 
-== Recipe
+=== Recipe
+
+|===
+|**Ingredients:** | **Equipment**
+| 10 lbs Tart Apples | Stock Pot
+| 1 tsp Ground Glove | Ricer
+| 4-6 cups Apple Cider (soft) | Backing Pan
+| 2 tbls Cinnamon |
+| 1/2 tbls Allspice |
+| Honey |
+| 2 Lemons Juiced | 
+|===

@@ -73,7 +73,7 @@ To revert changes(*Move Head*) to a specific commit.
 
 .get UUID for commit
 ----
-git history
+git log
 ----
 .revert to a specific commit
 ----

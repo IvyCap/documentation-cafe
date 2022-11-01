@@ -1,7 +1,8 @@
-= Food
+// Food
 
 // tag::food[]
 ==== Spreads
 [horizontal]
-Apple Butter:: Spread made with baked apples and spices 
+link:apple-butter.adoc[Apple Butter]:: Spread made with baked apples and spices
+link:bacon-jam.adoc[Bacon Jam]:: Warm jam of bacon, shallots, thyme and 
 // end::food[]
