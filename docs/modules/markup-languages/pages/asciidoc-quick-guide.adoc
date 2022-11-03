@@ -50,6 +50,32 @@ __un__constrained
 ``**__un__**``constrained
 ----
 
+.[.underline]#Underlined#
+----
+[.underline]#Underlined#
+----
+
+.[.line-through]#Strike-Through#
+----
+[.line-through]#Strike-Through#
+----
+
+.#Highlighted#
+----
+#constrained#
+##Un##constrained
+----
+
+.^Super^Script
+----
+^Super^Script
+----
+
+.~sub~Script
+----
+~sub~Script
+----
+
 == Section Titles and Levels
 ----
 = Document Title - Level 0

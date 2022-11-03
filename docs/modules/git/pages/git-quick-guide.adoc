@@ -1,21 +1,22 @@
 = Git Quick Reference Guide
 :toc: right
 
-Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The https://git-scm.com/[Git project] is a member project of the https://sfconservancy.org/[Software Freedom Conservancy].
+Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The https://git-scm.com/[Git project] is a member project of the https://sfconservancy.org/[Software Freedom Conservancy]
 
-== Cloning, Pulling, Pushing, and Fetching branches and commits  
+== Downloading/Uploading Repositories, and Branchs 
 === git clone
 Copy/download repo or branch to local machine
 
 .HTTPS clone
 ----
-git clone https://address.com/reponame
+git clone https://{serverAdress.xz[port]/path/to/project/repoName.git}
 ----
 
 .SSH Clone
 ----
- git clone git@github.com:IvyCap/test-repo.git
+ git clone ssh://{user@serverAddress.xz[port]:/path/to/project/repoName.git}
 ----
+
 === git pull
 Pulls down latest version of remote repo and merges changes into local repo.
 ----
@@ -25,7 +26,7 @@ git pull
 === git fetch 
 Downloads latest version of the remote repo without merging the changes.
 ----
-git fetch http://address.com/reponame
+git fetch https://{serverAdress.xz[port]/path/to/project/repoName.git}
 ----
 
 === git push
@@ -37,11 +38,11 @@ git push origin
 ----
 .push a tag
 ----
-git push origin <TagName>
+git push origin {TagName}
 ----
 .Creates and pushes branch to remote repo
 ----
-git push --set-upstream origin <branchName>
+git push --set-upstream origin {branchName}
 ----
 
 == Changing, and Setting Stages, and Commits  
@@ -49,7 +50,7 @@ git push --set-upstream origin <branchName>
 
 .Add changes from Unstaged to Staged
 ----
-git add <*Source*>
+git add {Source}
 ----
 
 .add all files in current directory
@@ -58,14 +59,14 @@ git add .
 ----
 .add a specific file
 ----
-git add fileName  
+git add {fileName}  
 ----
 
 === git commit
 
 .Add changes from Staged to Committed with a note
 ----
-git commit -m "message"
+git commit -m "{message}"
 ----
 
 === git checkout
@@ -77,7 +78,7 @@ git log
 ----
 .revert to a specific commit
 ----
-git checkout UUID
+git checkout {UUID}
 ----
 .revert to the master commit
 ----
@@ -85,15 +86,16 @@ git checkout master
 ----
 .check out a tags
 ----
-git checkout tags/TagName
+git checkout {TagName}
 ----
+
 .move to a branch
 ----
-git checkout branchName
+git checkout {branchName}
 ----
 .create new branch and move to it.
 ----
-git checkout -b branchName
+git checkout -b {branchName}
 ----
 
 === git reset
@@ -112,11 +114,11 @@ git branch
 ----
 .Create new branch. Does not move you to the new branch.
 ----
-git branch branchName
+git branch {branchName}
 ----
 .delete a branch
 ----
-git branch -d branchName
+git branch -d {branchName}
 ----
 
 === git stash
@@ -126,7 +128,7 @@ git stash
 ----
 .save a stash under a name
 ----
-git stash save "StashName"
+git stash save "{StashName}"
 ----
 .list stashes
 ----
@@ -141,14 +143,14 @@ git stash pop
 
 .Check differences between two branches
 ----
-git diff <*Branch1*> <*Branch2*>
+git diff {Branch1} {Branch2}
 ----
 
 === git merge
 
 .Merges specified branch in to currently located branch
 ----
-git merge <*SourceBranch*>
+git merge {SourceBranch}
 ----
 .abort a conflicting merge
 ----
@@ -159,7 +161,7 @@ git merge --abort
 
 .Rebase(merge) current branch with SourceBranch
 ----
-git rebase SourceBranch
+git rebase {sourceBranch}
 ----
 
 === git tag
@@ -171,26 +173,26 @@ git tag
 ----
 .add a tag with a name and message
 ----
-git tag -a <*TagName*> -m "Update note"
+git tag -a {tagName} -m "{message}"
 ----
 
 === got config
 Set User Email and  Name
-.Set global user email
+.Set global user's email
 ----
-git config --global user.email "you@example.com"
+git config --global user.email "{emailAddress}"
 ----
-.Set local repo user email
+.Set local repo user's email
 ----
-git config --local user.email "you@example.com"
+git config --local user.email "{emailAddress}"
 ----
-.Set global user name
+.Set global user's name
 ----
-git config --global user.name "Your Name"
+git config --global user.name "{usersName}"
 ----
-.Set local repo user name
+.Set local repo user's name
 ----
-git config --local user.name "Your Name"
+git config --local user.name "{usersName}"
 ----
 
 
