@@ -3,9 +3,9 @@
 
 Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The https://git-scm.com/[Git project] is a member project of the https://sfconservancy.org/[Software Freedom Conservancy]
 
-== Downloading/Uploading Repositories, and Branchs 
+== Starting a Project
 === git clone
-Copy/download repo or branch to local machine
+Copy/download a repository to local machine
 
 .HTTPS clone
 ----
@@ -17,14 +17,21 @@ git clone https://{serverAdress.xz[port]/path/to/project/repoName.git}
  git clone ssh://{user@serverAddress.xz[port]:/path/to/project/repoName.git}
 ----
 
+=== git init
+Create an empty git repository or reinitilezes an existing one
+----
+git init
+----
+
+== Download/Upload Updates to a Repository 
 === git pull
-Pulls down latest version of remote repo and merges changes into local repo.
+Pulls down latest version of remote repository and merges changes into local repo.
 ----
 git pull
 ----
 
 === git fetch 
-Downloads latest version of the remote repo without merging the changes.
+Downloads latest version of the remote repository without merging the changes.
 ----
 git fetch https://{serverAdress.xz[port]/path/to/project/repoName.git}
 ----
@@ -45,7 +52,7 @@ git push origin {TagName}
 git push --set-upstream origin {branchName}
 ----
 
-== Changing, and Setting Stages, and Commits  
+== Set Stages, and Commits  
 === git add
 
 .Add changes from Unstaged to Staged
@@ -104,7 +111,7 @@ Rest unstaged changes if they have not been Committed
 git reset
 ----
 
-== Branches and Stashes
+== Branches and Stashes Managment
 
 === git branch
 
@@ -182,7 +189,7 @@ Set User Email and  Name
 ----
 git config --global user.email "{emailAddress}"
 ----
-.Set local repo user's email
+.Set local repository user's email
 ----
 git config --local user.email "{emailAddress}"
 ----
@@ -190,7 +197,7 @@ git config --local user.email "{emailAddress}"
 ----
 git config --global user.name "{usersName}"
 ----
-.Set local repo user's name
+.Set local repository user's name
 ----
 git config --local user.name "{usersName}"
 ----
