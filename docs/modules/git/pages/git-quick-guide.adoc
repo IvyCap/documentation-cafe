@@ -26,6 +26,7 @@ git init
 == Git Configuration
 === git config
 Set User Email and  Name
+
 .Set global user's email
 ----
 git config --global user.email "{emailAddress}"
@@ -43,31 +44,31 @@ git config --global user.name "{usersName}"
 git config --local user.name "{usersName}"
 ----
 
-== Upload/Download Updates to/from a Repository 
+== Send Updates to or from a Repository 
 === git pull
-Pulls down latest version of remote repository and merges changes into local repo.
+.Pulls down latest version of remote repository and merges changes into local repository
 ----
 git pull
 ----
 
 === git fetch 
-Downloads latest version of the remote repository without merging the changes.
+.Downloads latest version of the remote repository without merging the changes.
 ----
 git fetch https://{serverAdress.xz[port]/path/to/project/repoName.git}
 ----
 
 === git push
-Add changes from Committed to destination repo
+Add changes from Committed to destination repository
 
-.push to original source of cloned repo
+.Push to original source of cloned repository
 ----   
 git push origin
 ----
-.push a tag
+.Push a tag
 ----
 git push origin {TagName}
 ----
-.Creates and pushes branch to remote repo
+.Creates and pushes branch to remote repository
 ----
 git push --set-upstream origin {branchName}
 ----
@@ -80,11 +81,11 @@ git push --set-upstream origin {branchName}
 git add {Source}
 ----
 
-.add all files in current directory
+.Add all files in current directory
 ----
 git add .
 ----
-.add a specific file
+.Add a specific file
 ----
 git add {fileName}  
 ----
@@ -97,12 +98,12 @@ git commit -m "{message}"
 ----
 
 === git reset
-Rest unstaged changes if they have not been Committed
+.Reset unstaged changes if they have not been Committed
 ----
 git reset
 ----
 
-== Branches, Commits, and Stashes Managment
+== Branches, Commits, Tags and Stashes Managment
 
 === git branch
 
@@ -114,7 +115,7 @@ git branch
 ----
 git branch {branchName}
 ----
-.delete a branch
+.Delete a branch
 ----
 git branch -d {branchName}
 ----
@@ -124,15 +125,15 @@ git branch -d {branchName}
 ----
 git stash
 ----
-.save a stash under a name
+.Save a stash under a name
 ----
 git stash save "{StashName}"
 ----
-.list stashes
+.List stashes
 ----
 git stash list
 ----
-.restore the changes from the most recent stash
+.Restore the changes from the most recent stash
 ----
 git stash pop
 ----
@@ -145,30 +146,31 @@ git diff {Branch1} {Branch2}
 ----
 
 === git checkout
-To revert changes(*Move Head*) to a specific commit.
+Move Head to a specific commit, branch, or tag.
 
-.get UUID for commit
+.Show UUIDs for commits
 ----
 git log
 ----
-.revert to a specific commit
+
+.Move to a specific commit
 ----
 git checkout {UUID}
 ----
-.revert to the master commit
+.Move to the master commit
 ----
 git checkout master
 ----
-.check out a tags
+.Check out a tags
 ----
 git checkout {TagName}
 ----
 
-.move to a branch
+.Move to a branch
 ----
 git checkout {branchName}
 ----
-.create new branch and move to it.
+.Create new branch and move to it.
 ----
 git checkout -b {branchName}
 ----
@@ -179,7 +181,7 @@ git checkout -b {branchName}
 ----
 git merge {SourceBranch}
 ----
-.abort a conflicting merge
+.Abort a conflicting merge
 ----
 git merge --abort
 ----
@@ -192,13 +194,13 @@ git rebase {sourceBranch}
 ----
 
 === git tag
-creates name for specific commits. Use instead of UUIDs.
+Creates name for specific commits. Use instead of UUIDs.
 
 .List all tags
 ----
 git tag
 ----
-.add a tag with a name and message
+.Add a tag with a name and message
 ----
 git tag -a {tagName} -m "{message}"
 ----
@@ -206,18 +208,18 @@ git tag -a {tagName} -m "{message}"
 == Status and History
 === git status
 
-.Show current status of local repo
+.Show current status of local repository
 ----
 git status
 ----
 
 === git log
 
-.Show history of reponame
+.Show history of repository name
 ----
 git log
 ----
-.compact version
+.Compact version
 ----
 git log --oneline
 ----
@@ -227,7 +229,7 @@ git log --graph
 ----
 .Show commits as a compact graph
 ----
-    git log --graph --oneline
+git log --graph --oneline
 ----
 
 == Stages
