@@ -23,7 +23,27 @@ Create an empty git repository or reinitilezes an existing one
 git init
 ----
 
-== Download/Upload Updates to a Repository 
+== Git Configuration
+=== git config
+Set User Email and  Name
+.Set global user's email
+----
+git config --global user.email "{emailAddress}"
+----
+.Set local repository user's email
+----
+git config --local user.email "{emailAddress}"
+----
+.Set global user's name
+----
+git config --global user.name "{usersName}"
+----
+.Set local repository user's name
+----
+git config --local user.name "{usersName}"
+----
+
+== Upload/Download Updates to/from a Repository 
 === git pull
 Pulls down latest version of remote repository and merges changes into local repo.
 ----
@@ -52,7 +72,7 @@ git push origin {TagName}
 git push --set-upstream origin {branchName}
 ----
 
-== Set Stages, and Commits  
+== Add, and Commit Changes 
 === git add
 
 .Add changes from Unstaged to Staged
@@ -76,42 +96,13 @@ git add {fileName}
 git commit -m "{message}"
 ----
 
-=== git checkout
-To revert changes(*Move Head*) to a specific commit.
-
-.get UUID for commit
-----
-git log
-----
-.revert to a specific commit
-----
-git checkout {UUID}
-----
-.revert to the master commit
-----
-git checkout master
-----
-.check out a tags
-----
-git checkout {TagName}
-----
-
-.move to a branch
-----
-git checkout {branchName}
-----
-.create new branch and move to it.
-----
-git checkout -b {branchName}
-----
-
 === git reset
 Rest unstaged changes if they have not been Committed
 ----
 git reset
 ----
 
-== Branches and Stashes Managment
+== Branches, Commits, and Stashes Managment
 
 === git branch
 
@@ -153,6 +144,35 @@ git stash pop
 git diff {Branch1} {Branch2}
 ----
 
+=== git checkout
+To revert changes(*Move Head*) to a specific commit.
+
+.get UUID for commit
+----
+git log
+----
+.revert to a specific commit
+----
+git checkout {UUID}
+----
+.revert to the master commit
+----
+git checkout master
+----
+.check out a tags
+----
+git checkout {TagName}
+----
+
+.move to a branch
+----
+git checkout {branchName}
+----
+.create new branch and move to it.
+----
+git checkout -b {branchName}
+----
+
 === git merge
 
 .Merges specified branch in to currently located branch
@@ -182,26 +202,6 @@ git tag
 ----
 git tag -a {tagName} -m "{message}"
 ----
-
-=== got config
-Set User Email and  Name
-.Set global user's email
-----
-git config --global user.email "{emailAddress}"
-----
-.Set local repository user's email
-----
-git config --local user.email "{emailAddress}"
-----
-.Set global user's name
-----
-git config --global user.name "{usersName}"
-----
-.Set local repository user's name
-----
-git config --local user.name "{usersName}"
-----
-
 
 == Status and History
 === git status
