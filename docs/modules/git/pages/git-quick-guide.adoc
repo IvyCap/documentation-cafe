@@ -44,7 +44,7 @@ git config --global user.name "{usersName}"
 git config --local user.name "{usersName}"
 ----
 
-== Send Updates to or from a Repository 
+== Send Updates To or From a Repository 
 === git pull
 .Pulls down latest version of remote repository and merges changes into local repository
 ----
@@ -75,10 +75,11 @@ git push --set-upstream origin {branchName}
 
 == Add, and Commit Changes 
 === git add
+Add changes from Unstaged to Staged
 
-.Add changes from Unstaged to Staged
+.Add changes from a direcotry
 ----
-git add {Source}
+git add {relative/patch/to/directory}
 ----
 
 .Add all files in current directory
@@ -103,7 +104,7 @@ git commit -m "{message}"
 git reset
 ----
 
-== Branches, Commits, Tags and Stashes Managment
+== Branches, Commits, Tags, and Stashes Managment
 
 === git branch
 
@@ -173,6 +174,11 @@ git checkout {branchName}
 .Create new branch and move to it.
 ----
 git checkout -b {branchName}
+----
+
+=== git restore
+----
+git restore {file}
 ----
 
 === git merge
