@@ -242,4 +242,4 @@ git log --graph --oneline
 * **Unstaged** - made changes that may not be kept
 * **Staged** - Made changes that you are sure you want to keep
 * **Committed** - Defiantly want to keep changes
-* **Pushed** -
+* **Pushed** - Uploaded changes to remote repository
