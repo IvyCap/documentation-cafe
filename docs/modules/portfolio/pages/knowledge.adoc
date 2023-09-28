@@ -1,0 +1,11 @@
+== Knowledge Articles
+
+=== Announcment
+
+image::../documents/BlizzHOTSdx9Forum.png[]
+
+=== Forum Guidelines
+
+image::../documents/BlizzForumGuidelines1.png[]
+image::../documents/BlizzForumGuidelines2.png[]
+image::../documents/BlizzForumGuidelines3.png[]

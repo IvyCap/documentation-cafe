@@ -1,14 +1,12 @@
 = Portfolio
 :toc: right
 
-== Guides
-include::
+link::../../portfolio/pages/knowledge.adoc[Knowledge Articles]
 
-== How-tos
-include::
+link::../../portfolio/pages/guides.adoc[Guides]
 
-== Knoledge Base
-include::
+link::../../portfolio/pages/howtos.adoc[How Tos]
 
-== API Documentation
-include::../../portfolio/pages/apidoc.adoc[API Documentation]
+link::../../portfolio/pages/apidoc.adoc[API Documentation]
+
+link::../../portfolio/pages/opensource.adoc[Open Source Project Documentation]

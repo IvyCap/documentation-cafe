@@ -7,3 +7,5 @@
 *** xref:knowledge.adoc[Knowledge Base]
 ** API Documentation
 *** xref:apiddoc.adoc[API Documentation]
+** Open Source Projects Documentation
+*** xref:opensource.adoc[Open Source Docmentation]
