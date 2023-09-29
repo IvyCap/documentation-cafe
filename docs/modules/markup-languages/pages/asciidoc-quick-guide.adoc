@@ -301,7 +301,7 @@ Link to <<bookmark-a, bookmark-a>> anchor
 
   include::../../examples/include-with-tags.adoc[tags=tagName]
 ----
-include::examples$include.adoc[]
+include::example$include.adoc[]
 
 include::../../examples/include-with-tags.adoc[tags=tagName]
 
