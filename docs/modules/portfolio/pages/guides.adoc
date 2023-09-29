@@ -1,10 +1,10 @@
 == Guides
 
 ===  Installation and Configuration Guides for Adminstrators 
-xref:attachment$dynamics.PDF[Tenfold MS Dynamics Intergration Guide]
+xref:https://drive.google.com/file/d/18dEeGj6A9EMQHld53UlAMwObKe9xGyNr/view?usp=sharing[Tenfold MS Dynamics Intergration Guide]
 
-xref:attachment$intergrationGuideZendesk.pdf[Tenfold(Nice Branded) Zendesk Intergration Guide]
+xref:https://drive.google.com/file/d/1oWkaHj8s3llzJGFkIG-CY2N9TugnlxQn/view?usp=sharing[Tenfold(Nice Branded) Zendesk Intergration Guide]
 
 xref:https://drive.google.com/file/d/1tgh4OLannGUScbvuqGZHViApw-qsHYZd/view?usp=sharing[Tenfold Netsuite Intergration Guide]
 
-xref:attachment$RingCentralIntergrationGuide.pdf[Tenfold RingCentral Intergration Guide]
+xref:https://drive.google.com/file/d/1EypG_Wm5Pn93lCxR9n15IQkKdna-d-t0/view?usp=sharing[Tenfold RingCentral Intergration Guide]
