@@ -1,6 +1,6 @@
 == Knowledge Articles
 
-=== Announcment
+=== Announcments
 
 image::../documents/BlizzHOTSdx9Forum.png[]
 
