@@ -258,7 +258,7 @@ xref:../../drinks/pages/frech-press.adoc[French Press Recipe]
 
 link:markdown.adoc[Markdown Guide]
 
-xref:docs/modules/drinks/pages/french-press.adoc[French Press Recipe]
+xref:drinks::french-press.adoc[French Press Recipe]
 
 === Inline Anchors
 ----
