@@ -1,12 +1,12 @@
 = Portfolio
 :toc: right
 
-link::../../portfolio/pages/knowledge.adoc[Knowledge Articles]
+xref:portfolio:knowledge.adoc[Knowledge Articles]
 
-link::../../portfolio/pages/guides.adoc[Guides]
+xref:portfolio:guides.adoc[Guides]
 
-link::../../portfolio/pages/howtos.adoc[How Tos]
+xref:portfolio:howtos.adoc[How Tos]
 
-link::../../portfolio/pages/apidoc.adoc[API Documentation]
+xref:portfolio:apidoc.adoc[API Documentation]
 
-link::../../portfolio/pages/opensource.adoc[Open Source Project Documentation]
+xref:portfolio:opensource.adoc[Open Source Project Documentation]
