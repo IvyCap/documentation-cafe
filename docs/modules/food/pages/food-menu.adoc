@@ -2,7 +2,7 @@
 
 // tag::food[]
 === Spreads
-xref:apple-butter.adoc[Apple Butter]: Spread made with baked apples and spices
+xref:food:apple-butter.adoc[Apple Butter]: Spread made with baked apples and spices
 
-xref:bacon-jam.adoc[Bacon Jam]: Warm jam of bacon, shallots, thyme and 
+xref:food:bacon-jam.adoc[Bacon Jam]: Warm jam of bacon, shallots, thyme and 
 // end::food[]

@@ -3,17 +3,17 @@
 // tag::drinks[]
 === Coffee
 
-xref:french-press.adoc[French Press]: Coffee made in a french press
+xref:drinks:french-press.adoc[French Press]: Coffee made in a french press
 
-xref:bulletish-coffee.adoc[Bulletish Coffee]: Coffee blended with Coconut oil and MCT oil
+xref:drinks:bulletish-coffee.adoc[Bulletish Coffee]: Coffee blended with Coconut oil and MCT oil
 
 === Coctails
 
-xref:winters-kiss.adoc[Winter's Kiss]: Rye Wiskey, Apple Brandy, Allspice Dram and Benadictine 
+xref:drinks:winters-kiss.adoc[Winter's Kiss]: Rye Wiskey, Apple Brandy, Allspice Dram and Benadictine 
 // end::drinks[]
 
 
 // Not currently on the menu
 
 === Cider
-xref:hot-cider-chai[Hot Cider]: Hot cider with masala chai
+xref:drinks:hot-cider-chai[Hot Cider]: Hot cider with masala chai
