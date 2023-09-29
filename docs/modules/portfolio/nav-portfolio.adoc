@@ -1,11 +1,6 @@
 * Portfolio
-** Guides
-*** xref:guides.adoc[Guides]
-** How-tos
-*** xref:howtos.adoc[How-To]
-** Knowledge Base
-*** xref:knowledge.adoc[Knowledge Base]
-** API Documentation
-*** xref:apidoc.adoc[API Documentation]
-** Open Source Projects Documentation
-*** xref:opensource.adoc[Open Source Docmentation]
+** xref:guides.adoc[Guides]
+** xref:howtos.adoc[How-To]
+** xref:knowledge.adoc[Knowledge Base]
+** xref:apidoc.adoc[API Documentation]
+** xref:opensource.adoc[Open Source Docmentation]
