@@ -297,13 +297,13 @@ Link to <<bookmark-a, bookmark-a>> anchor
 
 == Include Text from another File
 ----
-  include::../../examples/include.adoc[]
+  include::../examples/include.adoc[]
 
-  include::../../examples/include-with-tags.adoc[tags=tagName]
+  include::../examples/include-with-tags.adoc[tags=tagName]
 ----
-include::modules/markup-languages/examples/include.adoc[]
+include::../examples/include.adoc[]
 
-include::docs/modules/markup-languages/examples/include-with-tags.adoc[tags=tagName]
+include::../examples/include-with-tags.adoc[tags=tagName]
 
 == Code Block
 ----
