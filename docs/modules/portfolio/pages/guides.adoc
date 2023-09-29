@@ -1,7 +1,7 @@
 == Guides
 
 ===  Installation and Configuration Guides for Adminstrators 
-xref:docs/modules/profolio/attachments/dynamics.PDF[Tenfold MS Dynamics Intergration Guide]
+xref:modules/profolio/attachments/dynamics.PDF[Tenfold MS Dynamics Intergration Guide]
 
 xref:docs/modules/profolio/attachments/intergrationGuideZendesk.pdf[Tenfold(Nice Branded) Zendesk Intergration Guide]
 
