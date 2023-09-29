@@ -5,6 +5,6 @@
 
 image::virtviewer.png[]
 
-image::../_images/virtxml.png[]
+image::virtxml.png[]
 
-image::../images/virtxmlvalidate.png[]
+image::virtxmlvalidate.png[]

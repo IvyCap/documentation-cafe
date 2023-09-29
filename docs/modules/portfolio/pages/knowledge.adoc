@@ -2,10 +2,10 @@
 
 === Announcments
 
-image::../images/BlizzHOTSdx9Forum.png[]
+image::BlizzHOTSdx9Forum.png[]
 
 === Forum Guidelines
 
-image::../images/BlizzForumGuidelines1.png[]
-image::../images/BlizzForumGuidelines2.png[]
-image::../images/BlizzForumGuidelines3.png[]
+image::BlizzForumGuidelines1.png[]
+image::BlizzForumGuidelines2.png[]
+image::BlizzForumGuidelines3.png[]
