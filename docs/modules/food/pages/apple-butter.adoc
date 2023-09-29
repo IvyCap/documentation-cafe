@@ -1,6 +1,6 @@
 = Apple Butter
 
-=== Recipe
+== Recipe
 
 |===
 |**Ingredients:** | **Equipment**

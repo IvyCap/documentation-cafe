@@ -2,11 +2,11 @@
 
 === Technical Troubleshooting Steps for End-Users
 
-image::BlizzBSOD.png[]
+image::BlizzBSOD.png[Blizzard BSOD Troubleshooting Steps]
 
-image::blizzwinmtr.png[]
+image::blizzwinmtr.png[Blizzard WinMTR Steps]
  
-image::BlizzOWindiciesForum.png[]
+image::BlizzOWindiciesForum.png[Blizzard Indicies troubleshooting Steps]
 
 === Technical Troubleshooting Steps for Adminstrators
 

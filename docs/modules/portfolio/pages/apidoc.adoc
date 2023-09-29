@@ -4,7 +4,7 @@
 
 This is from a projected I started to document the Tenfold APIs. Due to some orginization changes within Tenfold this project was not completed. 
 
-image::swagger.png[]
+image::swagger.png[Swagger page of Tenfold APIs]
 
 [source,yaml]
 ----
