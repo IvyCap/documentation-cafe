@@ -2,7 +2,7 @@
 
 
 
-=== Recipe
+== Recipe
 |===
 |**Ingredients:** | **Equipment:**
 | 4 tbs of whole coffee beans | French Press (2 Cups)

@@ -2,7 +2,7 @@
 
 An emulsion of coffee, MCT oil, and coconut oil
 
-=== Recipe
+== Recipe
 |===
 |**Ingredients:** | **Equipment**
 | 2 cups French Press Coffee | Mixing Container (We us a 6 cup metal mesuaring cup)
