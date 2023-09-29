@@ -5,6 +5,6 @@ xref:attachment$dynamics.PDF[Tenfold MS Dynamics Intergration Guide]
 
 xref:attachment$intergrationGuideZendesk.pdf[Tenfold(Nice Branded) Zendesk Intergration Guide]
 
-xref:attachment$netsuite.pdf[Tenfold Netsuite Intergration Guide]
+xref:https://drive.google.com/file/d/1tgh4OLannGUScbvuqGZHViApw-qsHYZd/view?usp=sharing[Tenfold Netsuite Intergration Guide]
 
 xref:attachment$RingCentralIntergrationGuide.pdf[Tenfold RingCentral Intergration Guide]
