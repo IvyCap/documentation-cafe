@@ -1,5 +1,4 @@
 = The Library
-:toc: right
 
 == Sections
 === Markup Languages

@@ -1,5 +1,4 @@
 = Portfolio
-:toc: right
 
 xref:portfolio:knowledge.adoc[Knowledge Articles]
 

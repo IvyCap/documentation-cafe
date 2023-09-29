@@ -1,5 +1,4 @@
 = The Documentation Cafe
-:toc: right
 
 **Hello and Welcome to the Documentation Cafe!** Please feel free to head over to xref:ROOT:bar.adoc[the counter], grab a drink or some food. Then kick back and peruse the xref:ROOT:library.adoc[documentation in our library].  
 

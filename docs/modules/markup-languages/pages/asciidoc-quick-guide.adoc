@@ -1,5 +1,4 @@
 = AsciiDoc Quick Reference Guide
-:toc: right
 
 AsciiDoc is a  plain text markup language designed for creating technical content. It is feature rich with senamtic elements and built to be moduler with content reusability. AsciiDoc can be read as is or converted in to mutiple formates including html, pdf, e-books, man pages, slide presentation and many more. 
 
@@ -417,7 +416,6 @@ As we learned as childeren quicksand can be lurking around every corner!
 .Table of Contents shows on the right
 ----
 = AsciiDoc Quick Reference Guide
-:toc: right
 ----
 .Table of Contents shows on the left
 ----

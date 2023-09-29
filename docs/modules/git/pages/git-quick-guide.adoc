@@ -1,5 +1,4 @@
 = Git Quick Reference Guide
-:toc: right
 
 Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The https://git-scm.com/[Git project] is a member project of the https://sfconservancy.org/[Software Freedom Conservancy]
 
