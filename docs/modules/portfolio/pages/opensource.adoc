@@ -3,8 +3,8 @@
 === tldr
 *tldr* is a "Simplified and community-driven man pages"
 
-image::../images/virtviewer.png[]
+image::virtviewer.png[]
 
-image::../images/virtxml.png[]
+image::../_images/virtxml.png[]
 
 image::../images/virtxmlvalidate.png[]
