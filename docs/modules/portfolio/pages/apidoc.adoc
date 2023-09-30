@@ -1,6 +1,4 @@
-= API Documentation
-
-== OpenAPI (Swagger)
+= API Documentation using OpenAPI & Swagger
 
 This is from a project I started to document Tenfolds Public APIs in OpenAPI specifications. Due to some orginization changes within Tenfold this project was not completed. 
 

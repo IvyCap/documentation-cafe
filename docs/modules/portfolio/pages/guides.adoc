@@ -1,6 +1,4 @@
-= Guides
-
-==  Installation and Configuration Guides for Adminstrators 
+=  Installation and Configuration Guides for Administrators 
 xref:https://drive.google.com/file/d/18dEeGj6A9EMQHld53UlAMwObKe9xGyNr/view?usp=sharing[Tenfold MS Dynamics Intergration Guide]
 
 xref:https://drive.google.com/file/d/1oWkaHj8s3llzJGFkIG-CY2N9TugnlxQn/view?usp=sharing[Tenfold(Nice Branded) Zendesk Intergration Guide]
