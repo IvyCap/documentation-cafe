@@ -1,5 +1,7 @@
 = Technical Troubleshooting Steps for End-Users
 
+Below are some of the technical troubleshooting steps I creatd for end-users of https://www.blizzard.com[Blizzard Entertainment] software.
+
 image::BlizzBSOD.png[Blizzard BSOD Troubleshooting Steps]
 
 image::blizzwinmtr.png[Blizzard WinMTR Steps]

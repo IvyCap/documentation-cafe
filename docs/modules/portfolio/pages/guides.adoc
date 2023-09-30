@@ -1,4 +1,7 @@
 =  Installation and Configuration Guides for Administrators 
+
+These are some of the guides I have created to assist customer adminstrators, Tenfold implementation engineers, Tenfold support engineers, and Tenfold technical account managers intergrate https://www.tenfold.com/[Tenfold] products with different CRMs and phone systems. 
+
 xref:https://drive.google.com/file/d/18dEeGj6A9EMQHld53UlAMwObKe9xGyNr/view?usp=sharing[Tenfold MS Dynamics Intergration Guide]
 
 xref:https://drive.google.com/file/d/1oWkaHj8s3llzJGFkIG-CY2N9TugnlxQn/view?usp=sharing[Tenfold(Nice Branded) Zendesk Intergration Guide]
