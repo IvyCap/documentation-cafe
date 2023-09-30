@@ -33,7 +33,7 @@ xref:portfolio:knowledge.adoc[Announcments & Forum Guidelines]
 
 xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrators]
 
-xref:portfolio:enduserTroubleshooting.adoc.adoc[Technical Troubleshooting Steps for End-Users]
+xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
 
 xref:portfolio:apidoc.adoc[API Documentation using OpenAPI and Swagger]
 
