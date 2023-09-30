@@ -1,4 +1,4 @@
-* xref:index.adoc[Hello & Welcome] 
+// * xref:index.adoc[Hello & Welcome] 
 
 * xref:bar.adoc[Bar Counter]
 ** xref:bar.adoc[Drinks]
@@ -9,7 +9,7 @@
 **** xref:drinks:winters-kiss.adoc[Winter's Kiss]
 ** xref:bar.adoc[Food]
 *** xref:bar.adoc[Spreads]
-**** xref:food:food:apple-butter.adoc[Apple Butter]
+**** xref:food:apple-butter.adoc[Apple Butter]
 
 * xref:library.adoc[Library]
 ** xref:library.adoc[Markup Languages]
