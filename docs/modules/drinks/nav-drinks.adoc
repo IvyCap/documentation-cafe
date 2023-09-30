@@ -1,4 +1,4 @@
-* xref:ROOT:bar.adoc[Drinks]
+* xref:ROOT:bar.adoc[Drink Recipies]
 ** xref:ROOT:bar.adoc[Coffee]
 *** xref:french-press.adoc[French Press]
 *** xref:bulletish-coffee.adoc[Bulletish Coffee]
