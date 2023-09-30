@@ -5,4 +5,4 @@
 xref:food:apple-butter.adoc[Apple Butter]: Spread made with baked apples and spices
 // end::food[]
 
-xref:food:bacon-jam.adoc[Bacon Jam]: Warm jam of bacon, shallots, thyme and 
+//xref:food:bacon-jam.adoc[Bacon Jam]: Warm jam of bacon, shallots, thyme and 

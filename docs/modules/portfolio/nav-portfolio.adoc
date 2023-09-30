@@ -1,4 +1,4 @@
-* Portfolio
+* xref:ROOT:portfolio.adoc[Portfolio]
 ** xref:guides.adoc[Guides]
 ** xref:howtos.adoc[How-To]
 ** xref:knowledge.adoc[Knowledge Base]

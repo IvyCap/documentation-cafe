@@ -1,10 +1,10 @@
-== Knowledge Articles
+= Knowledge Articles
 
-=== Announcments
+== Announcments
 
 image::BlizzHOTSdx9Forum.png[Blizzard Forum DX9 Announcment]
 
-=== Forum Guidelines
+== Forum Guidelines
 
 image::BlizzForumGuidelines1.png[Blizzard Forum guidlines Part 1]
 image::BlizzForumGuidelines2.png[Blizzard Forum guidlines Part 1]

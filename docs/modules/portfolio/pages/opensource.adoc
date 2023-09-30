@@ -1,6 +1,6 @@
-== Open Source Projects
+= Open Source Projects
 
-=== tldr
+== tldr
 *tldr* is a "Simplified and community-driven man pages"
 
 image::virtviewer.png[]

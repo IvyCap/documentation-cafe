@@ -1,5 +1,18 @@
 = Portfolio
 
+Hello, my name is Kyle. My carreer has spanned many different technical postions where I have udilized my technical writing skills. My resume on xref:https://www.linkedin.com/in/kylermonteith/[LinkedIn]
+
+== Profesional Technical Writing Skill and Tool Sets:
+* AsciiDoc, Markdown, OpenAPI
+* Antora, Swagger, AsciiDoctor-PDF
+* Github, Gitlab, Git, & Jira
+* Confluence, Wordpress, Zendesk, Salesforce,
+* Google Drive
+
+
+== Employer Projects
+The below examples are work I have completed for employers
+
 xref:portfolio:knowledge.adoc[Knowledge Articles]
 
 xref:portfolio:guides.adoc[Guides]
@@ -8,4 +21,11 @@ xref:portfolio:howtos.adoc[How Tos]
 
 xref:portfolio:apidoc.adoc[API Documentation]
 
-xref:portfolio:opensource.adoc[Open Source Project Documentation]
+== Open Source Projects
+Here are examples of work I have completed for xref:portfolio:opensource.adoc[Open Source Projects]
+
+== Personal Projects
+The below examples are work I have completed for myself
+
+xref:root:index.adoc[Documentaion Cafe] is a site I created to document my interests and prcatice my technical writing skills. 
+
