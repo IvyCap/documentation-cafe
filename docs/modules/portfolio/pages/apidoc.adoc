@@ -1,6 +1,6 @@
 = API Documentation using OpenAPI & Swagger
 
-This is from a project I started to document Tenfolds Public APIs in OpenAPI specifications. Due to some orginization changes within Tenfold this project was not completed. 
+This is from a project I started to document https://apidocs.tenfold.com/[Tenfolds Public APIs] in OpenAPI specifications. Due to some orginization changes within Tenfold this project was not completed. 
 
 image::swagger.png[Swagger page of Tenfold APIs]
 
