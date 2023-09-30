@@ -1,8 +1,13 @@
 * xref:index.adoc[Hello & Welcome] 
 * xref:bar.adoc[Bar Counter]
+** xref:food:nav-food.adoc[Food]
 * xref:library.adoc[Library]
 * xref:portfolio.adoc[Portfolio]
-
+** xref:portfolio:guides.adoc[Guides for Administrators]
+** xref:portfolio:enduserTroubleshooting.adoc[End-user Troubleshooting]
+** xref:portfolio:knowledge.adoc[Announcments & Forum Guidelines]
+** xref:portfolio:apidoc.adoc[API Documentation]
+** xref:portfolio:tldr.adoc[tldr]
 
 
 
