@@ -1,6 +1,8 @@
 = The Library
 
-== Sections
+Welcome to the Documnetation Cafe Library. Currently the library consists of guides I have created for myself to assist with my porfesional and personal projects. 
+
+== Subjects
 === Markup Languages
 xref:markup-languages:markdown.adoc[Markdown Quick Reference Guide]
 
