@@ -1,6 +1,6 @@
 = My Technical Writing Portfolio
 
-Hello, my name is Kyle. My career has spanned many different technical postions where I have utilized my technical writing skills.
+Hello, my name is Kyle. My career has spanned many different technical postions where I have utilized my technical writing skills to create documentation for technical and non-technical audiences. 
 
 https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 
