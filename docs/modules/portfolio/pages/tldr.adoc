@@ -1,0 +1,8 @@
+= tldr Project
+https://tldr.sh/[tldr, window=blank] is a "Simplified and community-driven man pages"
+
+image::virtviewer.png[]
+
+image::virtxml.png[]
+
+image::virtxmlvalidate.png[]

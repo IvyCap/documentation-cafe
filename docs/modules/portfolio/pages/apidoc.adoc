@@ -2,7 +2,7 @@
 
 == OpenAPI (Swagger)
 
-This is from a projected I started to document the Tenfold APIs. Due to some orginization changes within Tenfold this project was not completed. 
+This is from a project I started to document Tenfolds Public APIs in OpenAPI specifications. Due to some orginization changes within Tenfold this project was not completed. 
 
 image::swagger.png[Swagger page of Tenfold APIs]
 
@@ -12,7 +12,7 @@ openapi: 3.0.0
 info:
   title: "Tenfold: A LivePerson Company API"
   description: |- 
-    APIs used to engage with the Tenfold and LivePerson Anywhere services
+    APIs used to engage with the Tenfold services
 
     You can use our APIs to:
 
@@ -85,11 +85,6 @@ tags:
     description: Operations about analytics
     externalDocs:
       description: Find out more about analytics
-      url: http://tenfold.com
-  - name: LP Anywhere
-    description: Operations for LP Anywhere services
-    externalDocs:
-      description: Find out more about LP Anywhere
       url: http://tenfold.com
   - name: OAuth2
     description: Operations for OAuth2

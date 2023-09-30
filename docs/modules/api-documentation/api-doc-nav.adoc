@@ -1,2 +1,2 @@
-* OpenAPI (Swagger)
+* xref:ROOT:library.adoc[OpenAPI (Swagger)]
 ** xref:openapi-quick-guide.adoc[OpenAPI (Swagger) Quick Refernce Guide]

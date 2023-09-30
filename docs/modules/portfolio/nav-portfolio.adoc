@@ -3,4 +3,4 @@
 ** xref:howtos.adoc[How-To]
 ** xref:knowledge.adoc[Knowledge Base]
 ** xref:apidoc.adoc[API Documentation]
-** xref:opensource.adoc[Open Source Docmentation]
+** xref:tldr.adoc[tldr]

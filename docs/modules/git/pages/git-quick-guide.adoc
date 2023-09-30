@@ -19,7 +19,7 @@ git clone https://{serverAdress.xz[port]/path/to/project/repoName.git}
 === git clone private Github repo with MFA enabled
 First you will need to obtain a Personal Access Token (PTA) from your Github account. Settings > Developer Settings > Personal access token > Fine-grained tokens. Add the token to the repo url as shown below. 
 
-.HTTPS clone
+.HTTPS clone with PAT
 ----
 git clone https://{PAT}@github.com/{userName or accountName}/{repoName.git}
 ----
@@ -27,6 +27,8 @@ git clone https://{PAT}@github.com/{userName or accountName}/{repoName.git}
 
 === git init
 Create an empty git repository or reinitilezes an existing one
+
+.git init
 ----
 git init
 ----
