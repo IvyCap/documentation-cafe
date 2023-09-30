@@ -5,7 +5,7 @@
 == What is the Documentation Cafe
 Documentation Cafe is a personal project with the following goals:
 
-* xref:protfolio.adoc[House my technical writing portfolio]
+* xref:portfolio.adoc[House my technical writing portfolio]
 * Practice technical writing
 * Document my interest
 
@@ -15,14 +15,17 @@ The house music is provided by Lofi Girl, which you can listen to by clicking th
 video::jfKfPfyJRdk[youtube]
 
 == This Site is Built Using:
-* https://docs.asciidoctor.org[AsciiDoc, window=blank]
+[cols="2", frame=none, grid=none] 
+|===
+l|* https://docs.asciidoctor.org[AsciiDoc, window=blank]
 * https://docs.antora.org[Antora, window=blank]
 * https://github.com[Github, window=blank]
 * https://gitlab.com[Gitlab, window=blank]
-* https://drive.google.com[Google Drive, window=blank]
+l|* https://drive.google.com[Google Drive, window=blank]
 * https://gitlab.com/antora/antora-ui-default[Modified Antora Default Theme, window=blank]
 * https://code.visualstudio.com/[VS Code, window=blank]
 * Linux (https://ubuntu.com/[Ubuntu, window=blank], https://pop.system76.com/[Pop!_OS, window=blank])
+|===
 
 === Contribute
 If you want to contribute to the Documnetation Cafe, please https://github.com/IvyCap/documentation-cafe/issues/new[submit an issue on our Github page].
