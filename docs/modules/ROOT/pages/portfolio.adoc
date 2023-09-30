@@ -1,4 +1,4 @@
-= Portfolio
+= My Technical Writing Portfolio
 
 Hello, my name is Kyle. My career has spanned many different technical postions where I have utilized my technical writing skills.
 
@@ -10,7 +10,7 @@ https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 * Antora, Swagger, AsciiDoctor-PDF
 * Github, Gitlab, Git, Jira
 * Confluence, Wordpress, Zendesk, Salesforce
-* Google Suite, LibreOffice
+* VS Code, Google Suite, LibreOffice
 
 == Additional Technical Skills and Tools
 * Linux, Windows, macOS, command line
