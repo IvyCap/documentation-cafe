@@ -15,15 +15,15 @@ The house music is provided by Lofi Girl, which you can listen to by clicking th
 video::jfKfPfyJRdk[youtube]
 
 == This Site is Built Using:
-[cols="2", frame=none, grid=none] 
+[cols="4", frame=none, grid=none] 
 |===
 a|* https://docs.asciidoctor.org[AsciiDoc, window=blank]
 * https://docs.antora.org[Antora, window=blank]
-* https://github.com[Github, window=blank]
+a|* https://github.com[Github, window=blank]
 * https://gitlab.com[Gitlab, window=blank]
 a|* https://drive.google.com[Google Drive, window=blank]
 * https://gitlab.com/antora/antora-ui-default[Modified Antora Default Theme, window=blank]
-* https://code.visualstudio.com/[VS Code, window=blank]
+a|* https://code.visualstudio.com/[VS Code, window=blank]
 * Linux (https://ubuntu.com/[Ubuntu, window=blank], https://pop.system76.com/[Pop!_OS, window=blank])
 |===
 
