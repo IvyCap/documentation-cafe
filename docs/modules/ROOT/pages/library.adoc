@@ -1,5 +1,7 @@
 = The Library
 
+image::nycLibrary.jpg[New York Public Library,640,480]
+
 Welcome to the Documnetation Cafe Library. Currently the library consists of guides I have created for myself to assist with my porfesional and personal projects. 
 
 == Subjects

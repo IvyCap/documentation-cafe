@@ -8,7 +8,7 @@ Copy/download a repository to local machine
 
 .HTTPS clone
 ----
-git clone https://{serverAdress.xz[port]/path/to/project/repoName.git}
+git clone https://{serverAdress.xyz[port]/path/to/project/repoName.git}
 ----
 
 .SSH Clone

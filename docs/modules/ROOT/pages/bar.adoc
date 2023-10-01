@@ -1,5 +1,7 @@
 = The Documentation Cafe Menu
 
+image::coffeeShop.jpg[Cozy Coffee Shop,640,480]
+
 == Drinks
 include::../../drinks/pages/drinks-menu.adoc[tag=drinks]
 
