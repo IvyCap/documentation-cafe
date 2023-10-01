@@ -1,4 +1,4 @@
-= The Documentation Cafe
+= Hello & Welcome
 
 **Hello and Welcome to the Documentation Cafe!** 
 

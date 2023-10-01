@@ -13,7 +13,7 @@ git clone https://{serverAdress.xz[port]/path/to/project/repoName.git}
 
 .SSH Clone
 ----
- git clone ssh://{user@serverAddress.xz[port]:/path/to/project/repoName.git}
+git clone ssh://{user@serverAddress.xyz[port]:/path/to/project/repoName.git}
 ----
 
 === git clone private Github repo with MFA enabled
@@ -64,7 +64,7 @@ git pull
 === git fetch 
 .Downloads latest version of the remote repository without merging the changes.
 ----
-git fetch https://{serverAdress.xz[port]/path/to/project/repoName.git}
+git fetch https://{serverAdress.xyz[port]/path/to/project/repoName.git}
 ----
 
 === git push
