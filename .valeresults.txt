@@ -1,0 +1,451 @@
+
+ [4mdocs/modules/ROOT/pages/library.adoc[0m
+ 17:66  [31merror[0m  Did you really mean 'Comming'?  Vale.Spelling 
+
+
+ [4mdocs/modules/ROOT/pages/portfolio.adoc[0m
+ 9:12    [31merror[0m  Did you really mean 'Yaml'?     Vale.Spelling 
+ 9:18    [31merror[0m  Did you really mean 'json'?     Vale.Spelling 
+ 10:3    [31merror[0m  Did you really mean 'Antora'?   Vale.Spelling 
+ 11:3    [31merror[0m  Did you really mean 'Github'?   Vale.Spelling 
+ 11:11   [31merror[0m  Did you really mean 'Gitlab'?   Vale.Spelling 
+ 11:24   [31merror[0m  Did you really mean 'Jira'?     Vale.Spelling 
+ 12:15   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Wordpress'?                                  
+ 12:26   [31merror[0m  Did you really mean 'Zendesk'?  Vale.Spelling 
+ 18:48   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Javascript'?                                 
+ 20:17   [31merror[0m  Did you really mean 'APIs'?     Vale.Spelling 
+ 43:16   [31merror[0m  Did you really mean 'tldr'?     Vale.Spelling 
+ 48:22   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Documentaion'?                               
+ 56:117  [31merror[0m  Did you really mean             Vale.Spelling 
+                'roleplaying'?                                
+
+
+ [4mdocs/modules/ROOT/pages/index.adoc[0m
+ 15:32   [31merror[0m  Did you really mean 'Lofi'?    Vale.Spelling 
+ 23:27   [31merror[0m  Did you really mean 'Antora'?  Vale.Spelling 
+ 25:24   [31merror[0m  Did you really mean 'Github'?  Vale.Spelling 
+ 26:22   [31merror[0m  Did you really mean 'Gitlab'?  Vale.Spelling 
+ 28:56   [31merror[0m  Did you really mean 'Antora'?  Vale.Spelling 
+ 34:140  [31merror[0m  Did you really mean 'Github'?  Vale.Spelling 
+
+
+ [4mdocs/modules/drinks/nav-drinks.adoc[0m
+ 4:32  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Bulletish'?                                  
+
+
+ [4mdocs/modules/drinks/pages/bulletish-coffee.adoc[0m
+ 1:3  [31merror[0m  Did you really mean             Vale.Spelling 
+             'Bulletish'?                                  
+
+
+ [4mdocs/modules/drinks/pages/drinks-menu.adoc[0m
+ 8:35   [31merror[0m  Did you really mean             Vale.Spelling 
+               'Bulletish'?                                  
+ 19:55  [31merror[0m  Did you really mean 'masala'?   Vale.Spelling 
+ 19:62  [31merror[0m  Did you really mean 'chai'?     Vale.Spelling 
+
+
+ [4mdocs/modules/drinks/pages/winters-kiss.adoc[0m
+ 6:104  [31merror[0m  Did you really mean             Vale.Spelling 
+               'chartruese'?                                 
+ 6:143  [31merror[0m  Did you really mean 'liqure'?   Vale.Spelling 
+ 6:150  [31merror[0m  Did you really mean 'cabnet'?   Vale.Spelling 
+ 6:335  [31merror[0m  Did you really mean 'goto'?     Vale.Spelling 
+ 11:23  [31merror[0m  Did you really mean             Vale.Spelling 
+               'Reccommended'?                               
+ 16:10  [31merror[0m  Did you really mean             Vale.Spelling 
+               'Arromatic'?                                  
+ 21:24  [31merror[0m  Did you really mean 'prefere'?  Vale.Spelling 
+
+
+ [4mdocs/modules/drinks/pages/french-press.adoc[0m
+ 18:30  [31merror[0m  Did you really mean             Vale.Spelling 
+               'tempature'?                                  
+ 18:65  [31merror[0m  Did you really mean 'frech'?    Vale.Spelling 
+ 19:30  [31merror[0m  Did you really mean 'fench'?    Vale.Spelling 
+ 20:55  [31merror[0m  Did you really mean             Vale.Spelling 
+               'throughly'?                                  
+ 20:80  [31merror[0m  Did you really mean 'refered'?  Vale.Spelling 
+ 20:94  [31merror[0m  Did you really mean             Vale.Spelling 
+               'blomming'?                                   
+ 21:24  [31merror[0m  Did you really mean 'frecnh'?   Vale.Spelling 
+ 23:3   [31merror[0m  Did you really mean             Vale.Spelling 
+               'Carfully'?                                   
+ 23:22  [31merror[0m  Did you really mean             Vale.Spelling 
+               'pluncher'?                                   
+ 24:11  [31merror[0m  Did you really mean 'frecnh'?   Vale.Spelling 
+
+
+ [4mdocs/modules/food/nav-food.adoc[0m
+ 1:27  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Recipies'?                                   
+
+
+ [4mdocs/modules/food/pages/apple-butter.adoc[0m
+ 10:5  [31merror[0m  Did you really mean 'tbls'?  Vale.Spelling 
+ 11:7  [31merror[0m  Did you really mean 'tbls'?  Vale.Spelling 
+
+
+ [4mdocs/modules/git/nav-git.adoc[0m
+ 2:40  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Refernce'?                                   
+
+
+ [4mdocs/modules/git/pages/git-quick-guide.adoc[0m
+ 19:23   [31merror[0m  Did you really mean 'Github'?   Vale.Spelling 
+ 19:30   [31merror[0m  Did you really mean 'repo'?     Vale.Spelling 
+ 20:71   [31merror[0m  Did you really mean 'Github'?   Vale.Spelling 
+ 20:185  [31merror[0m  Did you really mean 'repo'?     Vale.Spelling 
+ 20:190  [31merror[0m  Did you really mean 'url'?      Vale.Spelling 
+ 29:35   [31merror[0m  Did you really mean             Vale.Spelling 
+                'reinitilezes'?                               
+ 37:9    [31merror[0m  Did you really mean 'config'?   Vale.Spelling 
+ 88:18   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Unstaged'?                                   
+ 90:21   [31merror[0m  Did you really mean             Vale.Spelling 
+                'direcotry'?                                  
+ 112:8   [31merror[0m  Did you really mean             Vale.Spelling 
+                'unstaged'?                                   
+ 117:41  [31merror[0m  Did you really mean             Vale.Spelling 
+                'Managment'?                                  
+ 162:7   [31merror[0m  Did you really mean 'UUIDs'?    Vale.Spelling 
+ 205:9   [31merror[0m  Did you really mean 'rebase'?   Vale.Spelling 
+ 213:51  [31merror[0m  Did you really mean 'UUIDs'?    Vale.Spelling 
+ 252:5   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Unstaged'?                                   
+
+
+ [4mdocs/modules/markup-languages/nav-markup-lang.adoc[0m
+ 2:35  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Asciidoc'?                                   
+
+
+ [4mdocs/modules/markup-languages/pages/markdown.adoc[0m
+ 3:109   [31merror[0m  Did you really mean 'html'?     Vale.Spelling 
+ 3:117   [31merror[0m  Did you really mean 'xhtml'?    Vale.Spelling 
+ 3:274   [31merror[0m  Did you really mean             Vale.Spelling 
+                'functinality'?                               
+ 3:287   [31merror[0m  Did you really mean 'severl'?   Vale.Spelling 
+ 6:9     [31merror[0m  Did you really mean             Vale.Spelling 
+                'Formating'?                                  
+ 30:18   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Strickthrough'?                              
+ 55:1    [31merror[0m  Did you really mean 'Lorem'?    Vale.Spelling 
+ 55:7    [31merror[0m  Did you really mean 'ipsum'?    Vale.Spelling 
+ 55:23   [31merror[0m  Did you really mean 'amet'?     Vale.Spelling 
+ 55:29   [31merror[0m  Did you really mean             Vale.Spelling 
+                'consectetur'?                                
+ 55:41   [31merror[0m  Did you really mean             Vale.Spelling 
+                'adipiscing'?                                 
+ 55:52   [31merror[0m  Did you really mean 'elit'?     Vale.Spelling 
+ 55:58   [31merror[0m  Did you really mean 'sed'?      Vale.Spelling 
+ 55:65   [31merror[0m  Did you really mean 'eiusmod'?  Vale.Spelling 
+ 55:73   [31merror[0m  Did you really mean 'tempor'?   Vale.Spelling 
+ 55:80   [31merror[0m  Did you really mean             Vale.Spelling 
+                'incididunt'?                                 
+ 55:94   [31merror[0m  Did you really mean 'labore'?   Vale.Spelling 
+ 55:104  [31merror[0m  Did you really mean 'dolore'?   Vale.Spelling 
+ 55:111  [31merror[0m  Did you really mean 'magna'?    Vale.Spelling 
+ 55:117  [31merror[0m  Did you really mean 'aliqua'?   Vale.Spelling 
+ 55:128  [31merror[0m  Did you really mean 'enim'?     Vale.Spelling 
+ 55:142  [31merror[0m  Did you really mean 'veniam'?   Vale.Spelling 
+ 55:150  [31merror[0m  Did you really mean 'quis'?     Vale.Spelling 
+ 55:155  [31merror[0m  Did you really mean 'nostrud'?  Vale.Spelling 
+ 55:176  [31merror[0m  Did you really mean 'ullamco'?  Vale.Spelling 
+ 55:184  [31merror[0m  Did you really mean 'laboris'?  Vale.Spelling 
+ 55:200  [31merror[0m  Did you really mean 'aliquip'?  Vale.Spelling 
+ 55:214  [31merror[0m  Did you really mean 'commodo'?  Vale.Spelling 
+ 55:222  [31merror[0m  Did you really mean             Vale.Spelling 
+                'consequat'?                                  
+ 57:1    [31merror[0m  Did you really mean 'Duis'?     Vale.Spelling 
+ 57:6    [31merror[0m  Did you really mean 'aute'?     Vale.Spelling 
+ 57:11   [31merror[0m  Did you really mean 'irure'?    Vale.Spelling 
+ 57:26   [31merror[0m  Did you really mean             Vale.Spelling 
+                'reprehenderit'?                              
+ 57:43   [31merror[0m  Did you really mean             Vale.Spelling 
+                'voluptate'?                                  
+ 57:53   [31merror[0m  Did you really mean 'velit'?    Vale.Spelling 
+ 57:64   [31merror[0m  Did you really mean 'cillum'?   Vale.Spelling 
+ 57:71   [31merror[0m  Did you really mean 'dolore'?   Vale.Spelling 
+ 57:78   [31merror[0m  Did you really mean 'eu'?       Vale.Spelling 
+ 57:81   [31merror[0m  Did you really mean 'fugiat'?   Vale.Spelling 
+ 57:88   [31merror[0m  Did you really mean 'nulla'?    Vale.Spelling 
+ 57:94   [31merror[0m  Did you really mean             Vale.Spelling 
+                'pariatur'?                                   
+ 57:104  [31merror[0m  Did you really mean             Vale.Spelling 
+                'Excepteur'?                                  
+ 57:114  [31merror[0m  Did you really mean 'sint'?     Vale.Spelling 
+ 57:119  [31merror[0m  Did you really mean             Vale.Spelling 
+                'occaecat'?                                   
+ 57:128  [31merror[0m  Did you really mean             Vale.Spelling 
+                'cupidatat'?                                  
+ 57:142  [31merror[0m  Did you really mean             Vale.Spelling 
+                'proident'?                                   
+ 57:152  [31merror[0m  Did you really mean 'sunt'?     Vale.Spelling 
+ 57:166  [31merror[0m  Did you really mean 'qui'?      Vale.Spelling 
+ 57:170  [31merror[0m  Did you really mean 'officia'?  Vale.Spelling 
+ 57:178  [31merror[0m  Did you really mean             Vale.Spelling 
+                'deserunt'?                                   
+ 57:187  [31merror[0m  Did you really mean 'mollit'?   Vale.Spelling 
+ 57:206  [31merror[0m  Did you really mean 'laborum'?  Vale.Spelling 
+ 213:22  [31merror[0m  Did you really mean             Vale.Spelling 
+                'Formating'?                                  
+ 214:32  [31merror[0m  Did you really mean             Vale.Spelling 
+                'formating'?                                  
+ 214:60  [31merror[0m  Did you really mean             Vale.Spelling 
+                'fromating'?                                  
+
+
+ [4mdocs/modules/markup-languages/pages/asciidoc-quick-guide.adoc[0m
+ 3:108    [31merror[0m  Did you really mean             Vale.Spelling   
+                 'senamtic'?                                     
+ 3:142    [31merror[0m  Did you really mean 'moduler'?  Vale.Spelling   
+ 3:163    [31merror[0m  Did you really mean             Vale.Spelling   
+                 'reusability'?                                  
+ 3:222    [31merror[0m  Did you really mean 'mutiple'?  Vale.Spelling   
+ 3:230    [31merror[0m  Did you really mean             Vale.Spelling   
+                 'formates'?                                     
+ 3:249    [31merror[0m  Did you really mean 'html'?     Vale.Spelling   
+ 3:255    [31merror[0m  Did you really mean 'pdf'?      Vale.Spelling   
+ 7:9      [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Formating'?                                    
+ 34:4     [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Monospace'?                                    
+ 46:5     [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Monospace'?                                    
+ 103:1    [31merror[0m  Did you really mean 'Lorem'?    Vale.Spelling   
+ 103:7    [31merror[0m  Did you really mean 'ipsum'?    Vale.Spelling   
+ 103:23   [31merror[0m  Did you really mean 'amet'?     Vale.Spelling   
+ 103:29   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'consectetur'?                                  
+ 103:41   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'adipiscing'?                                   
+ 103:52   [31merror[0m  Did you really mean 'elit'?     Vale.Spelling   
+ 103:58   [31merror[0m  Did you really mean 'sed'?      Vale.Spelling   
+ 103:65   [31merror[0m  Did you really mean 'eiusmod'?  Vale.Spelling   
+ 103:73   [31merror[0m  Did you really mean 'tempor'?   Vale.Spelling   
+ 103:80   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'incididunt'?                                   
+ 103:94   [31merror[0m  Did you really mean 'labore'?   Vale.Spelling   
+ 103:104  [31merror[0m  Did you really mean 'dolore'?   Vale.Spelling   
+ 103:111  [31merror[0m  Did you really mean 'magna'?    Vale.Spelling   
+ 103:117  [31merror[0m  Did you really mean 'aliqua'?   Vale.Spelling   
+ 103:128  [31merror[0m  Did you really mean 'enim'?     Vale.Spelling   
+ 103:142  [31merror[0m  Did you really mean 'veniam'?   Vale.Spelling   
+ 103:150  [31merror[0m  Did you really mean 'quis'?     Vale.Spelling   
+ 103:155  [31merror[0m  Did you really mean 'nostrud'?  Vale.Spelling   
+ 103:176  [31merror[0m  Did you really mean 'ullamco'?  Vale.Spelling   
+ 103:184  [31merror[0m  Did you really mean 'laboris'?  Vale.Spelling   
+ 103:200  [31merror[0m  Did you really mean 'aliquip'?  Vale.Spelling   
+ 103:214  [31merror[0m  Did you really mean 'commodo'?  Vale.Spelling   
+ 103:222  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'consequat'?                                    
+ 105:1    [31merror[0m  Did you really mean 'Duis'?     Vale.Spelling   
+ 105:6    [31merror[0m  Did you really mean 'aute'?     Vale.Spelling   
+ 105:11   [31merror[0m  Did you really mean 'irure'?    Vale.Spelling   
+ 105:26   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'reprehenderit'?                                
+ 105:43   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'voluptate'?                                    
+ 105:53   [31merror[0m  Did you really mean 'velit'?    Vale.Spelling   
+ 105:64   [31merror[0m  Did you really mean 'cillum'?   Vale.Spelling   
+ 105:71   [31merror[0m  Did you really mean 'dolore'?   Vale.Spelling   
+ 105:78   [31merror[0m  Did you really mean 'eu'?       Vale.Spelling   
+ 105:81   [31merror[0m  Did you really mean 'fugiat'?   Vale.Spelling   
+ 105:88   [31merror[0m  Did you really mean 'nulla'?    Vale.Spelling   
+ 105:94   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'pariatur'?                                     
+ 105:104  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Excepteur'?                                    
+ 105:114  [31merror[0m  Did you really mean 'sint'?     Vale.Spelling   
+ 105:119  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'occaecat'?                                     
+ 105:128  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'cupidatat'?                                    
+ 105:142  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'proident'?                                     
+ 105:152  [31merror[0m  Did you really mean 'sunt'?     Vale.Spelling   
+ 105:166  [31merror[0m  Did you really mean 'qui'?      Vale.Spelling   
+ 105:170  [31merror[0m  Did you really mean 'officia'?  Vale.Spelling   
+ 105:178  [31merror[0m  Did you really mean             Vale.Spelling   
+                 'deserunt'?                                     
+ 105:187  [31merror[0m  Did you really mean 'mollit'?   Vale.Spelling   
+ 105:206  [31merror[0m  Did you really mean 'laborum'?  Vale.Spelling   
+ 108:5    [31merror[0m  Did you really mean 'Orderd'?   Vale.Spelling   
+ 143:5    [31merror[0m  'sub' is repeated!              Vale.Repetition 
+ 160:12   [31merror[0m  Did you really mean 'Offest'?   Vale.Spelling   
+ 234:11   [31merror[0m  Did you really mean 'Youtube'?  Vale.Spelling   
+ 251:5    [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Releative'?                                    
+ 273:53   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'referenceable'?                                
+ 279:34   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'xreflabel'?                                    
+ 282:14   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'Refereence'?                                   
+ 293:10   [31merror[0m  Did you really mean 'lamore'?   Vale.Spelling   
+ 293:41   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'formating'?                                    
+ 391:24   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'jackalopes'?                                   
+ 407:18   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'childeren'?                                    
+ 410:13   [31merror[0m  Did you really mean 'Cotents'?  Vale.Spelling   
+ 411:51   [31merror[0m  Did you really mean             Vale.Spelling   
+                 'imediatly'?                                    
+
+
+ [4mdocs/modules/markup-languages/examples/include-with-tags.adoc[0m
+ 5:6  [31merror[0m  Did you really mean 'tex'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/nav-portfolio.adoc[0m
+ 4:24  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Announcments'?                               
+ 6:9   [31merror[0m  Did you really mean 'tldr'?     Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/pages/guides.adoc[0m
+ 3:64    [31merror[0m  Did you really mean             Vale.Spelling 
+                'adminstrators'?                              
+ 3:184   [31merror[0m  Did you really mean             Vale.Spelling 
+                'intergrating'?                               
+ 3:255   [31merror[0m  Did you really mean 'CRMs'?     Vale.Spelling 
+ 5:109   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Intergration'?                               
+ 7:111   [31merror[0m  Did you really mean 'Zendesk'?  Vale.Spelling 
+ 7:119   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Intergration'?                               
+ 9:97    [31merror[0m  Did you really mean             Vale.Spelling 
+                'Netsuite'?                                   
+ 9:106   [31merror[0m  Did you really mean             Vale.Spelling 
+                'Intergration'?                               
+ 11:109  [31merror[0m  Did you really mean             Vale.Spelling 
+                'Intergration'?                               
+
+
+ [4mdocs/modules/portfolio/pages/apidoc.adoc[0m
+ 3:75   [31merror[0m  Did you really mean             Vale.Spelling 
+               'Tenfolds'?                                   
+ 3:91   [31merror[0m  Did you really mean 'APIs'?     Vale.Spelling 
+ 3:136  [31merror[0m  Did you really mean             Vale.Spelling 
+               'orginization'?                               
+ 5:44   [31merror[0m  Did you really mean 'APIs'?     Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/pages/knowledge.adoc[0m
+ 1:3    [31merror[0m  Did you really mean             Vale.Spelling 
+               'Announcments'?                               
+ 3:23   [31merror[0m  Did you really mean             Vale.Spelling 
+               'accouncments'?                               
+ 3:40   [31merror[0m  Did you really mean             Vale.Spelling 
+               'guidlines'?                                  
+ 5:4    [31merror[0m  Did you really mean             Vale.Spelling 
+               'Announcment'?                                
+ 7:49   [31merror[0m  Did you really mean             Vale.Spelling 
+               'Announcment'?                                
+ 11:49  [31merror[0m  Did you really mean             Vale.Spelling 
+               'guidlines'?                                  
+
+
+ [4mdocs/modules/portfolio/pages/tldr.adoc[0m
+ 1:3   [31merror[0m  Did you really mean 'tldr'?     Vale.Spelling 
+ 3:18  [31merror[0m  Did you really mean 'tldr'?     Vale.Spelling 
+ 9:8   [31merror[0m  Did you really mean 'virtxml'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/pages/enduserTroubleshooting.adoc[0m
+ 3:57  [31merror[0m  Did you really mean 'creatd'?   Vale.Spelling 
+ 9:42  [31merror[0m  Did you really mean             Vale.Spelling 
+              'Indicies'?                                   
+
+
+ [4mdocs/modules/portfolio/images/BlizzForumGuidelines2.png[0m
+ 656:142   [31merror[0m  Did you really mean 'Euh'?  Vale.Spelling 
+ 1513:231  [31merror[0m  Did you really mean 'Nt'?   Vale.Spelling 
+ 2044:146  [31merror[0m  Did you really mean 'gzo'?  Vale.Spelling 
+ 2092:322  [31merror[0m  Did you really mean 'gzo'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/BlizzHOTSdx9Forum.png[0m
+ 489:550  [31merror[0m  Did you really mean 'Sj'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/BlizzOWindiciesForum.png[0m
+ 409:211  [31merror[0m  Did you really mean 'xLc'?  Vale.Spelling 
+ 488:397  [31merror[0m  Did you really mean 'Zw'?   Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/BlizzForumGuidelines1.png[0m
+ 31:19    [31merror[0m  Did you really mean 'qqq'?  Vale.Spelling 
+ 149:224  [31merror[0m  Did you really mean 'Ue'?   Vale.Spelling 
+ 711:51   [31merror[0m  Did you really mean 'qqq'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/BlizzForumGuidelines3.png[0m
+ 1725:152  [31merror[0m  Did you really mean 'Bg'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/virtxml.png[0m
+ 178:86  [31merror[0m  Did you really mean 'Qx'?  Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/virtxmlvalidate.png[0m
+ 26:541  [31merror[0m  Did you really mean 'zp'?  Vale.Spelling 
+
+
+ [4mdocs/antora.yml[0m
+ 4:1  [31merror[0m  Did you really mean             Vale.Spelling 
+             'display_version'?                            
+ 5:1  [31merror[0m  Did you really mean             Vale.Spelling 
+             'asciidoc'?                                   
+ 8:5  [31merror[0m  Did you really mean             Vale.Spelling 
+             'xrefstyle'?                                  
+
+
+ [4mdocs/modules/portfolio/images/swagger.png[0m
+ 90:1     [31merror[0m  Did you really mean 'eXn'?  Vale.Spelling 
+ 371:266  [31merror[0m  Did you really mean 'ww'?   Vale.Spelling 
+ 592:72   [31merror[0m  Did you really mean 'Sff'?  Vale.Spelling 
+
+
+ [4mdocs/modules/ROOT/images/coffeeShop.jpg[0m
+ 143:6     [31merror[0m  Did you really mean 'ez'?    Vale.Spelling 
+ 155:91    [31merror[0m  Did you really mean 'jt'?    Vale.Spelling 
+ 209:217   [31merror[0m  Did you really mean 'Xh'?    Vale.Spelling 
+ 306:38    [31merror[0m  Did you really mean 'Je'?    Vale.Spelling 
+ 465:164   [31merror[0m  Did you really mean 'vSp'?   Vale.Spelling 
+ 764:42    [31merror[0m  Did you really mean 'mw'?    Vale.Spelling 
+ 1122:85   [31merror[0m  Did you really mean 'uz'?    Vale.Spelling 
+ 1220:107  [31merror[0m  Did you really mean 'Gx'?    Vale.Spelling 
+ 2234:1    [31merror[0m  Did you really mean 'WPc'?   Vale.Spelling 
+ 2622:189  [31merror[0m  Did you really mean 'qzVa'?  Vale.Spelling 
+ 2654:30   [31merror[0m  Did you really mean 'Yn'?    Vale.Spelling 
+
+
+ [4mdocs/modules/portfolio/images/blizzwinmtr.png[0m
+ 362:18    [31merror[0m  Did you really mean 'Vm'?   Vale.Spelling 
+ 1292:113  [31merror[0m  Did you really mean 'gc'?   Vale.Spelling 
+ 1494:1    [31merror[0m  Did you really mean 'jhy'?  Vale.Spelling 
+ 2549:280  [31merror[0m  Did you really mean 'Qqb'?  Vale.Spelling 
+
+
+ [4mdocs/modules/ROOT/images/nycLibrary.jpg[0m
+ 69:144    [31merror[0m  Did you really mean 'Wg'?   Vale.Spelling 
+ 102:22    [31merror[0m  Did you really mean 'y_'?   Vale.Spelling 
+ 185:267   [31merror[0m  Did you really mean 'Tv'?   Vale.Spelling 
+ 950:195   [31merror[0m  Did you really mean 'Fk'?   Vale.Spelling 
+ 1006:1    [31merror[0m  Did you really mean 'Pv'?   Vale.Spelling 
+ 1412:69   [31merror[0m  Did you really mean 'oc'?   Vale.Spelling 
+ 1582:1    [31merror[0m  Did you really mean 'Ouo'?  Vale.Spelling 
+ 2041:1    [31merror[0m  Did you really mean 'qgy'?  Vale.Spelling 
+ 2461:109  [31merror[0m  Did you really mean 'Ak'?   Vale.Spelling 
+ 2750:124  [31merror[0m  Did you really mean 'Pgv'?  Vale.Spelling 
+ 4110:210  [31merror[0m  Did you really mean 'ist'?  Vale.Spelling 
+ 4936:33   [31merror[0m  Did you really mean 'THj'?  Vale.Spelling 
+
+✖ [31m260 errors[0m, [33m0 warnings[0m and [34m0 suggestions[0m in 42 files.

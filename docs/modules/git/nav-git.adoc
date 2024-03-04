@@ -1,2 +1,2 @@
 * xref:ROOT:library.adoc[Git]
-** xref:git-quick-guide.adoc[Git Quick Refernce Guide]
+** xref:git-quick-guide.adoc[Git Quick Reference Guide]

@@ -26,7 +26,7 @@ git clone https://{PAT}@github.com/{userName or accountName}/{repoName.git}
 
 
 === git init
-Create an empty git repository or reinitilezes an existing one
+Create an empty git repository or reinitializes an existing one
 
 .git init
 ----
@@ -114,7 +114,7 @@ git commit -m "{message}"
 git reset
 ----
 
-== Branches, Commits, Tags, and Stashes Managment
+== Branches, Commits, Tags, and Stashes Management
 
 === git branch
 

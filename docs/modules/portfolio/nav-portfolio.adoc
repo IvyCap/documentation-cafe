@@ -1,6 +1,6 @@
 * xref:ROOT:portfolio.adoc[Portfolio Examples]
 ** xref:guides.adoc[Guides for Administrators]
 ** xref:enduserTroubleshooting.adoc[End-user Troubleshooting]
-** xref:knowledge.adoc[Announcments & Forum Guidelines]
+** xref:knowledge.adoc[Announcements & Forum Guidelines]
 ** xref:apidoc.adoc[API Documentation]
 ** xref:tldr.adoc[tldr]

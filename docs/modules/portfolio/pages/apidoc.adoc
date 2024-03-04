@@ -1,6 +1,6 @@
 = API Documentation using OpenAPI & Swagger
 
-This is from a project I started to document https://apidocs.tenfold.com/[Tenfolds Public APIs] in OpenAPI specifications. Due to some orginization changes within Tenfold this project was not completed. 
+This is from a project I started to document https://apidocs.tenfold.com/[Tenfold's Public APIs] in OpenAPI specifications. Due to some organization changes within Tenfold this project was not completed. 
 
 image::swagger.png[Swagger page of Tenfold APIs]
 
@@ -27,7 +27,7 @@ info:
 
     **User** - A user inside an Organization with limited permisions
 
-    **Admin** - A user inside an Organization with overall provisioning, configuration, and access rights over the entire orginization.
+    **Admin** - A user inside an Organization with overall provisioning, configuration, and access rights over the entire organization.
 
     **Partner** - A type of Organization which can create child organizations. The Admin of partner organization can manage child organizations and act on behalf of any user.
       

@@ -2,7 +2,7 @@
 
 image::nycLibrary.jpg[New York Public Library,640,480]
 
-Welcome to the Documnetation Cafe Library. Currently the library consists of guides I have created for myself to assist with my porfesional and personal projects. 
+Welcome to the Documentation Cafe Library. Currently the library consists of guides I have created for myself to assist with my professional and personal projects. 
 
 == Subjects
 === Markup Languages
@@ -13,6 +13,6 @@ xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
 === Version Control
 xref:git:git-quick-guide.adoc[git Quick Reference Guide]
 
-=== API Documentation(Comming Soon)
-xref:api-documentation:openapi-quick-guide.adoc[OpenAPI(Swagger) Comming Soon]
+=== API Documentation(Coming Soon)
+xref:api-documentation:openapi-quick-guide.adoc[OpenAPI(Swagger) Coming Soon]
 

@@ -1,10 +1,10 @@
 = AsciiDoc Quick Reference Guide
 
-AsciiDoc is a  plain text markup language designed for creating technical content. It is feature rich with senamtic elements and built to be moduler with content reusability. AsciiDoc can be read as is or converted in to mutiple formates including html, pdf, e-books, man pages, slide presentation and many more. 
+AsciiDoc is a  plain text markup language designed for creating technical content. It is feature rich with semantic elements and built to be modular with content reusability. AsciiDoc can be read as is or converted in to multiple formats including html, pdf, e-books, man pages, slide presentation and many more. 
 
 The https://asciidoc.org[AsciiDoc] project is maintained by the https://asciidoc-wg.eclipse.org/[Eclipse Foundation]. The full https://docs.asciidoctor.org/asciidoc/latest/[AssciiDoc Specification is found here]
 
-== Text Formating 
+== Text Formatting 
 
 
 .*Bold* 
@@ -157,7 +157,7 @@ Item 3:: Inline text
 ----
 
 Item 1:: Offset text
-Item 1A::: Offest text
+Item 1A::: Offset text
 
 [horizontal]
 Item 2:: Inline text
@@ -248,7 +248,7 @@ audio::local-file.wav[]
 audio::local file.wav[start=60,opts=autoplay]
 ----
 
-=== Releative
+=== Relative
 ----
 link:markdown.adoc[Markdown Guide]
 
@@ -279,7 +279,7 @@ anchor:bookmark-c[]Use a cross reference to link to this location.
 [[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
 
 
-=== Internal Refereence to Sections & Anchors
+=== Internal Reference to Sections & Anchors
 ----
 Go to the <<Lists>> section to learn more about lists
 
@@ -290,7 +290,7 @@ Link to <<bookmark-a, bookmark-a>> anchor
 
 Go to the <<Lists>> section to learn more about lists
 
-To learn lamore about <<Text Formating, formating here>>
+To learn lamore about <<Text Formatting, formatting here>>
 
 Link to <<bookmark-a, bookmark-a>> anchor
 
@@ -404,11 +404,11 @@ As we learned as childeren quicksand can be lurking around every corner!
 [WARNING]
 .Quicksand Warning
 ====
-As we learned as childeren quicksand can be lurking around every corner!
+As we learned as children quicksand can be lurking around every corner!
 ====
 
-== Table of Cotents
-.Table of Contents shows in the default position, imediatly below the document title
+== Table of Contents
+.Table of Contents shows in the default position, immediately below the document title
 ----
 = AsciiDoc Quick Reference Guide
 :toc:

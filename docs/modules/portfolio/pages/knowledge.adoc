@@ -1,6 +1,6 @@
 = Announcments & Forum Guidelines
 
-Below are examples of accouncments and guidlines I created at https://www.blizzard.com[Blizzard Entertainment]
+Below are examples of announcments and guidelines I created at https://www.blizzard.com[Blizzard Entertainment]
 
 == Announcment if Discontinuation of Windows DX9 Support 
 
@@ -8,6 +8,6 @@ image::BlizzHOTSdx9Forum.png[Blizzard Forum DX9 Announcment]
 
 == Forum Usage Guidelines
 
-image::BlizzForumGuidelines1.png[Blizzard Forum guidlines Part 1]
-image::BlizzForumGuidelines2.png[Blizzard Forum guidlines Part 1]
-image::BlizzForumGuidelines3.png[Blizzard Forum guidlines Part 1]
+image::BlizzForumGuidelines1.png[Blizzard Forum guidelines Part 1]
+image::BlizzForumGuidelines2.png[Blizzard Forum guidelines Part 2]
+image::BlizzForumGuidelines3.png[Blizzard Forum guidelines Part 3]

@@ -1,13 +1,13 @@
 = My Technical Writing Portfolio
 
-Hello, my name is Kyle. My career has spanned many different technical postions where I have utilized my technical writing skills to create documentation for technical and non-technical audiences. 
+Hello, my name is Kyle. My career has spanned many different technical positions where I have utilized my technical writing skills to create documentation for technical and non-technical audiences. 
 
 https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 
 == Technical Writing Skills and Tools
 * AsciiDoc, Markdown
-* OpenAPI, Yaml, json
-* Antora, Swagger, AsciiDoctor-PDF
+* OpenAPI, YAML, JSON
+* Antora, Swagger, AsciiDoctor-PDF, Vale
 * Github, Gitlab, Git, Jira
 * Confluence, Wordpress, Zendesk, Salesforce
 * VS Code, Google Suite, LibreOffice
@@ -29,7 +29,7 @@ Red Hat Certified System Administrator (RHCSA): Red Hat Enterprise Linux 7:: Red
 === Employer Projects
 Below are examples of work I have completed for employers
 
-xref:portfolio:knowledge.adoc[Announcments & Forum Guidelines]
+xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
 
 xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrators]
 
@@ -45,7 +45,7 @@ xref:portfolio:tldr.adoc[tldr] is an open source project to create simplified ma
 === Personal Projects
 Below are examples of work I have completed for myself
 
-xref:ROOT:index.adoc[Documentaion Cafe] is a site I created to document my interests and prcatice my technical writing skills. 
+xref:ROOT:index.adoc[Documentaion Cafe] is a site I created to document my interests and practice my technical writing skills. 
 
 xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
 

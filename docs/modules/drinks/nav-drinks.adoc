@@ -1,7 +1,7 @@
-* xref:ROOT:bar.adoc[Drink Recipies]
+* xref:ROOT:bar.adoc[Drink Recipes]
 ** xref:ROOT:bar.adoc[Coffee]
 *** xref:french-press.adoc[French Press]
 *** xref:bulletish-coffee.adoc[Bulletish Coffee]
 
-** xref:ROOT:bar.adoc[Coctails]
+** xref:ROOT:bar.adoc[Cocktails]
 *** xref:winters-kiss.adoc[Winter's Kiss]
