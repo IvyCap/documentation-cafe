@@ -7,11 +7,11 @@ Documentation Cafe is a personal project with the below goals:
 
 
 ## Format:
-**MarkUp Language**: https://asciidoc.org/[AsciiDoc]
+**MarkUp Language**: [AsciiDoc](https://asciidoc.org/)
 
-**Site Generator**: https://antora.org/[Antora]
+**Site Generator**: [Antora](https://antora.org/)
 
-**Linter**: https://vale.sh/[Vale]
+**Linter**: [Vale](https://vale.sh/)
 
 ### Liscense
 (C) 2023 K.R. Monteith
