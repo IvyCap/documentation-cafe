@@ -7,7 +7,7 @@ Documentation Cafe is a personal project with the below goals:
 
 
 ## Format:
-**MarkUp Language**: https://asciidoc.org/[AsciiDoc]
+**MarkUp Language**: [AsciiDoc](https://asciidoc.org/)
 
 **Site Generator**: https://antora.org/[Antora]
 
