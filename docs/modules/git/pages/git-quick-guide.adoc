@@ -35,7 +35,7 @@ git init
 
 == Git Configuration
 === git config
-Set User Email and  Name
+Set User Email, Name and Passowrd
 
 .Set global user's email
 ----
@@ -61,10 +61,16 @@ git config --global user.password"{password}"
 ----
 git config --local user.passowrd "{password}"
 ----
-.Enable global credetntial storage
+.Enable global credetntial storage 
 ----
 git config --global credential.helper store
 ----
+[CAUTION]
+.Security Notice
+====
+credential.helper does store the credentails in plain text in the ~/.git-credentials file
+====
+
 
 == Send Updates To or From a Repository 
 === git pull
