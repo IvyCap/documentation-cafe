@@ -13,7 +13,15 @@ Documentation Cafe is a personal project with the below goals:
 
 **Linter**: [Vale](https://vale.sh/)
 
+## Build:
+1. Install Antora
+    - npm i -g @antora/cli@3.1 @antora/site-generator@3.1
+2. Move to DOCUMENTATION_CAFE/Docs folder
+    - cd DOCUMENTATION_CAFE/Docs
+3. Run Antora
+    - 
+
 ### Liscense
-(C) 2023 K.R. Monteith
+(C) 2024 K.R. Monteith
 
 

@@ -53,6 +53,18 @@ git config --global user.name "{usersName}"
 ----
 git config --local user.name "{usersName}"
 ----
+.Set global user's password
+----
+git config --global user.password"{password}"
+----
+.Set local repository user's password
+----
+git config --local user.passowrd "{password}"
+----
+.Enable global credetntial storage
+----
+git config --global credential.helper store
+----
 
 == Send Updates To or From a Repository 
 === git pull
