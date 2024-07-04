@@ -1,4 +1,4 @@
-.valeresults.txt
+valeresults.txt
 package-lock.json
 package.json
-node_modules/*
+./node_modules
