@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Markdown Quick Reference Guide :: The Documentation Cafe</title>
+    <link rel="canonical" href="https://www.documentation.cafe/documentation-cafe/latest/markup-languages/markdown.html">
+    <meta name="generator" content="Antora 3.1.8">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.documentation.cafe">The Documentation Cafe</a>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="documentation-cafe" data-version="latest">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Documentation Cafe</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../bar.html">Bar Counter</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../library.html">Library</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../portfolio.html">Portfolio</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Drink Recipes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Coffee</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/french-press.html">French Press</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/bulletish-coffee.html">Bulletish Coffee</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Cocktails</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/winters-kiss.html">Winter&#8217;s Kiss</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Food Recipes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Spreads</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../food/apple-butter.html">Apple Butter</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../library.html">Markup Languages</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="asciidoc-quick-guide.html">AsciiDoc Quick Reference Guide</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="markdown.html">Markdown Quick Reference Guide</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../library.html">Git</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../git/git-quick-guide.html">Git Quick Reference Guide</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../portfolio.html">Portfolio</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/guides.html">Guides for Administrators</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/enduserTroubleshooting.html">End-user Troubleshooting</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/knowledge.html">Announcements &amp; Forum Guidelines</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/apidoc.html">API Documentation</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/tldr.html">tldr</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Documentation Cafe</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Documentation Cafe</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Documentation Cafe</a></li>
+    <li><a href="../library.html">Markup Languages</a></li>
+    <li><a href="markdown.html">Markdown Quick Reference Guide</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/ivycap/Documents/Projects/documentation-cafe//docs/modules/markup-languages/pages/markdown.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Markdown Quick Reference Guide</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Markdown is a lightweight markup language created in 2004. It was designed to convert easy to write text to html or xhtml. The details of the current specification known as <a href="https://commonmark.org/">CommanMark</a> are <a href="https://spec.commonmark.org/">found here</a>. To add additional functionality several different flavors of Markdown have been developed over the years. This guide is based on the <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GitHub Flavored markdown</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_text_formatting"><a class="anchor" href="#_text_formatting"></a>Text Formatting</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="title">Example 1. <em>Italics</em></div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">*italics*
+_italics_</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 2. <strong>Bold</strong></div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">**bold**
+__bold__</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 3. <strong><em>Bold &amp; Italics</em></strong></div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">***Bold &amp; Italics***</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 4. <strong>Bold &amp; <em>Nested Italics</em></strong></div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">**Bold &amp; _Nested Italics_**</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 5. <span class="line-through">Strikethrough</span></div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">~~strickthrough~~</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 6. Sub Script</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">&lt;sub&gt;Sub Script Text&lt;/sub&gt;</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 7. Super Sub Script</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">&lt;sup&gt;Super Sub Script Text&lt;/sup&gt;</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 8. Hidden Text</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">&lt;Hidden Text&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_paragraph"><a class="anchor" href="#_paragraph"></a>Paragraph</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Create a paragraph by leaving a blank line between the text.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="paragraph">
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links"><a class="anchor" href="#_links"></a>Links</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_web"><a class="anchor" href="#_web"></a>Web</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">[Documentation Cafe](https://documentation.cafe/index.html)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://documentation.cafe/index.html">Documentation Cafe</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_file"><a class="anchor" href="#_file"></a>File</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">[Git Guide](https://documentation.cafe/git-quick-guide.html)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://documentation.cafe/git-quick-guide.html">Git Guide</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_image"><a class="anchor" href="#_image"></a>Image</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">![Image](https://link.link/image.png)
+
+![Image](../path/to/image.png)</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lists"><a class="anchor" href="#_lists"></a>Lists</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_unordered"><a class="anchor" href="#_unordered"></a>Unordered</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">* first item
+   * add four spaces for sub item
+* Second item</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>first item</p>
+<div class="ulist">
+<ul>
+<li>
+<p>add four spaces for sub item</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Second item</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">- first item in the list
+- second item in the list
+    - add 4 spaces to indent sub item in list</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>first item in the list</p>
+</li>
+<li>
+<p>second item in the list</p>
+<div class="ulist">
+<ul>
+<li>
+<p>add 4 spaces to indent sub item in list</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ordered"><a class="anchor" href="#_ordered"></a>Ordered</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">1. First item
+2. Second item
+3. Third item</code></pre>
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First item</p>
+</li>
+<li>
+<p>Second item</p>
+</li>
+<li>
+<p>Third item</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_mixed"><a class="anchor" href="#_mixed"></a>Mixed</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">1. First item
+    - sub bulleted item. add 4 spaces
+2. second item
+    - add 4 spaces to indent sub item in list
+        * add additional 4 spaces</code></pre>
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First item</p>
+<div class="ulist">
+<ul>
+<li>
+<p>sub bulleted item. add 4 spaces</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>second item</p>
+<div class="ulist">
+<ul>
+<li>
+<p>add 4 spaces to indent sub item in list</p>
+<div class="ulist">
+<ul>
+<li>
+<p>add additional 4 spaces</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_task"><a class="anchor" href="#_task"></a>Task</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">- [x] Task 1
+- [x] Task 2
+- [ ] Task 3</code></pre>
+</div>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="fa fa-check-square-o"></i> Task 1</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Task 2</p>
+</li>
+<li>
+<p><i class="fa fa-square-o"></i> Task 3</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_headers"><a class="anchor" href="#_headers"></a>Headers</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc"># First tier header
+## Second tier header
+### Third tier header
+#### Forth tier header
+##### five tier header
+###### sixth tier header
+## Second tier header</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_horizontal_line"><a class="anchor" href="#_horizontal_line"></a>Horizontal line</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">Three hyphens
+
+---
+
+Three asterisks
+
+***
+
+Three underscores
+
+___</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Three hyphens</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Three asterisks</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Three underscores</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quotes"><a class="anchor" href="#_quotes"></a>Quotes</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">&gt; This is quoted text
+&gt;-- Some Person</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The quote will look like this:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+This is quoted text
+</blockquote>
+<div class="attribution">
+&#8212; Some Person
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_code_block"><a class="anchor" href="#_code_block"></a>Code Block</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>3 backticks above an below code.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">```
+this is a code block
+```</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">this is a code block</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_in_line_code"><a class="anchor" href="#_in_line_code"></a>In Line Code</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">I thinks you should use an `&lt;addr&gt;` element here instead.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>I thinks you should use an <code>&lt;addr&gt;</code> element here instead.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hidden_content"><a class="anchor" href="#_hidden_content"></a>Hidden Content</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">&lt;!-- This comment will not show in rendered markdown --&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ignoring_markdown_formatting"><a class="anchor" href="#_ignoring_markdown_formatting"></a>Ignoring Markdown Formatting</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Add a <code>\</code> before and after the formatting marks to stop the formattingfrom being rendered.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">This text will not show as \**bold**\ or \*italics*\ in rendered markdown.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This text will not show as **bold** or *italics* in rendered markdown.</p>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+      property="dct:title">Documentation Cafe</span> by <span property="cc:attributionName">KRM</span> is licensed under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer"
+      style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+  <p>This page was built using a modified Antora default UI. The source code for this UI is licensed under the terms of
+    the MPL-2.0 license.</p>
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

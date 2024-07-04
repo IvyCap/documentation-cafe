@@ -1,0 +1,16 @@
+site:
+  title: The Documentation Cafe
+  url: https://www.documentation.cafe
+  start_page: documentation-cafe::index.adoc 
+content:
+  sources: 
+  - url: ../
+    branches: [draft]
+    start_path: docs 
+ui: 
+  bundle:
+    url: ../../documentation-cafe-ui/build/ui-bundle.zip
+    snapshot: true
+    
+    
+ #- url: https://github.com/IvyCap/documentation-cafe.git

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git Quick Reference Guide :: The Documentation Cafe</title>
+    <link rel="canonical" href="https://www.documentation.cafe/documentation-cafe/latest/git/git-quick-guide.html">
+    <meta name="generator" content="Antora 3.1.8">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.documentation.cafe">The Documentation Cafe</a>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="documentation-cafe" data-version="latest">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Documentation Cafe</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../bar.html">Bar Counter</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../library.html">Library</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../portfolio.html">Portfolio</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Drink Recipes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Coffee</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/french-press.html">French Press</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/bulletish-coffee.html">Bulletish Coffee</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Cocktails</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../drinks/winters-kiss.html">Winter&#8217;s Kiss</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Food Recipes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../bar.html">Spreads</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../food/apple-butter.html">Apple Butter</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../library.html">Markup Languages</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../markup-languages/asciidoc-quick-guide.html">AsciiDoc Quick Reference Guide</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../markup-languages/markdown.html">Markdown Quick Reference Guide</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../library.html">Git</a>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="git-quick-guide.html">Git Quick Reference Guide</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../portfolio.html">Portfolio</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/guides.html">Guides for Administrators</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/enduserTroubleshooting.html">End-user Troubleshooting</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/knowledge.html">Announcements &amp; Forum Guidelines</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/apidoc.html">API Documentation</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../portfolio/tldr.html">tldr</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Documentation Cafe</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Documentation Cafe</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Documentation Cafe</a></li>
+    <li><a href="../library.html">Git</a></li>
+    <li><a href="git-quick-guide.html">Git Quick Reference Guide</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/ivycap/Documents/Projects/documentation-cafe//docs/modules/git/pages/git-quick-guide.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Git Quick Reference Guide</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Git is a distributed version control software used for tracking change to any group of files. Git was originally developed in 2005 for use with Linux kernel development. The <a href="https://git-scm.com/">Git project</a> is a member project of the <a href="https://sfconservancy.org/">Software Freedom Conservancy</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_starting_a_project"><a class="anchor" href="#_starting_a_project"></a>Starting a Project</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_clone"><a class="anchor" href="#_git_clone"></a>git clone</h3>
+<div class="paragraph">
+<p>Copy/download a repository to local machine</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 1. HTTPS clone</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git clone https://{serverAdress.xyz[port]/path/to/project/repoName.git}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 2. SSH Clone</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git clone ssh://{user@serverAddress.xyz[port]:/path/to/project/repoName.git}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_clone_private_github_repo_with_mfa_enabled"><a class="anchor" href="#_git_clone_private_github_repo_with_mfa_enabled"></a>git clone private Github repo with MFA enabled</h3>
+<div class="paragraph">
+<p>First you will need to obtain a Personal Access Token (PTA) from your Github account. Settings &gt; Developer Settings &gt; Personal access token &gt; Fine-grained tokens. Add the token to the repo url as shown below.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 3. HTTPS clone with PAT</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git clone https://{PAT}@github.com/{userName or accountName}/{repoName.git}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_init"><a class="anchor" href="#_git_init"></a>git init</h3>
+<div class="paragraph">
+<p>Create an empty git repository or reinitialize an existing one</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 4. git init</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git init</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git_configuration"><a class="anchor" href="#_git_configuration"></a>Git Configuration</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_config"><a class="anchor" href="#_git_config"></a>git config</h3>
+<div class="paragraph">
+<p>Set User Email, Name and Password</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 5. Set global user&#8217;s email</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --global user.email "{emailAddress}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 6. Set local repository user&#8217;s email</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --local user.email "{emailAddress}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 7. Set global user&#8217;s name</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --global user.name "{usersName}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 8. Set local repository user&#8217;s name</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --local user.name "{usersName}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 9. Set global user&#8217;s password</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --global user.password"{password}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 10. Set local repository user&#8217;s password</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --local user.passowrd "{password}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 11. Enable global credetntial storage</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git config --global credential.helper store</code></pre>
+</div>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="title">Security Notice</div>
+<div class="paragraph">
+<p>credential.helper does store the credentials in plain text in the ~/.git-credentials file</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_send_updates_to_or_from_a_repository"><a class="anchor" href="#_send_updates_to_or_from_a_repository"></a>Send Updates To or From a Repository</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_pull"><a class="anchor" href="#_git_pull"></a>git pull</h3>
+<div class="listingblock">
+<div class="title">Example 12. Pulls down latest version of remote repository and merges changes into local repository</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git pull</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_fetch"><a class="anchor" href="#_git_fetch"></a>git fetch</h3>
+<div class="listingblock">
+<div class="title">Example 13. Downloads latest version of the remote repository without merging the changes.</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git fetch https://{serverAdress.xyz[port]/path/to/project/repoName.git}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_push"><a class="anchor" href="#_git_push"></a>git push</h3>
+<div class="paragraph">
+<p>Add changes from Committed to destination repository</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 14. Push to original source of cloned repository</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git push origin</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 15. Push a tag</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git push origin {TagName}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 16. Creates and pushes branch to remote repository</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git push --set-upstream origin {branchName}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_add_and_commit_changes"><a class="anchor" href="#_add_and_commit_changes"></a>Add, and Commit Changes</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_add"><a class="anchor" href="#_git_add"></a>git add</h3>
+<div class="paragraph">
+<p>Add changes from Unstaged to Staged</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 17. Add changes from a directory</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git add {relative/patch/to/directory}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 18. Add all files in current directory</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git add .</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 19. Add a specific file</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git add {fileName}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_commit"><a class="anchor" href="#_git_commit"></a>git commit</h3>
+<div class="listingblock">
+<div class="title">Example 20. Add changes from Staged to Committed with a note</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git commit -m "{message}"</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_reset"><a class="anchor" href="#_git_reset"></a>git reset</h3>
+<div class="listingblock">
+<div class="title">Example 21. Reset unstaged changes if they have not been Committed</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git reset</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_branches_commits_tags_and_stashes_management"><a class="anchor" href="#_branches_commits_tags_and_stashes_management"></a>Branches, Commits, Tags, and Stashes Management</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_branch"><a class="anchor" href="#_git_branch"></a>git branch</h3>
+<div class="listingblock">
+<div class="title">Example 22. List branches</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git branch</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 23. Create new branch. Does not move you to the new branch.</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git branch {branchName}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 24. Delete a branch</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git branch -d {branchName}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_stash"><a class="anchor" href="#_git_stash"></a>git stash</h3>
+<div class="listingblock">
+<div class="title">Example 25. Creates a new stash and reverts to the most resent commits</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git stash</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 26. Save a stash under a name</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git stash save "{StashName}"</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 27. List stashes</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git stash list</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 28. Restore the changes from the most recent stash</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git stash pop</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_diff"><a class="anchor" href="#_git_diff"></a>git diff</h3>
+<div class="listingblock">
+<div class="title">Example 29. Check differences between two branches</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git diff {Branch1} {Branch2}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_checkout"><a class="anchor" href="#_git_checkout"></a>git checkout</h3>
+<div class="paragraph">
+<p>Move Head to a specific commit, branch, or tag.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 30. Show UUIDs for commits</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git log</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 31. Move to a specific commit</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git checkout {UUID}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 32. Move to the master commit</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git checkout master</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 33. Check out a tags</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git checkout {TagName}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 34. Move to a branch</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git checkout {branchName}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 35. Create new branch and move to it.</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git checkout -b {branchName}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_restore"><a class="anchor" href="#_git_restore"></a>git restore</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git restore {file}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_merge"><a class="anchor" href="#_git_merge"></a>git merge</h3>
+<div class="listingblock">
+<div class="title">Example 36. Merges specified branch in to currently located branch</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git merge {SourceBranch}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 37. Abort a conflicting merge</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git merge --abort</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_rebase"><a class="anchor" href="#_git_rebase"></a>git rebase</h3>
+<div class="listingblock">
+<div class="title">Example 38. Rebase(merge) current branch with SourceBranch</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git rebase {sourceBranch}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_tag"><a class="anchor" href="#_git_tag"></a>git tag</h3>
+<div class="paragraph">
+<p>Creates name for specific commits. Use instead of UUIDs.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example 39. List all tags</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git tag</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 40. Add a tag with a name and message</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git tag -a {tagName} -m "{message}"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_status_and_history"><a class="anchor" href="#_status_and_history"></a>Status and History</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git_status"><a class="anchor" href="#_git_status"></a>git status</h3>
+<div class="listingblock">
+<div class="title">Example 41. Show current status of local repository</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git status</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git_log"><a class="anchor" href="#_git_log"></a>git log</h3>
+<div class="listingblock">
+<div class="title">Example 42. Show history of repository name</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git log</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 43. Compact version</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git log --oneline</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 44. Show commits as a graph</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git log --graph</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example 45. Show commits as a compact graph</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">git log --graph --oneline</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_stages"><a class="anchor" href="#_stages"></a>Stages</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Unstaged</strong> - made changes that may not be kept</p>
+</li>
+<li>
+<p><strong>Staged</strong> - Made changes that you are sure you want to keep</p>
+</li>
+<li>
+<p><strong>Committed</strong> - Defiantly want to keep changes</p>
+</li>
+<li>
+<p><strong>Pushed</strong> - Uploaded changes to remote repository</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+      property="dct:title">Documentation Cafe</span> by <span property="cc:attributionName">KRM</span> is licensed under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer"
+      style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
+        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+  <p>This page was built using a modified Antora default UI. The source code for this UI is licensed under the terms of
+    the MPL-2.0 license.</p>
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
