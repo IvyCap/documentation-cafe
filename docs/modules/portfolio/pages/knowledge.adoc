@@ -1,10 +1,10 @@
-= Announcments & Forum Guidelines
+= Announcements & Forum Guidelines
 
-Below are examples of announcments and guidelines I created at https://www.blizzard.com[Blizzard Entertainment]
+Below are examples of announcements and guidelines I created at https://www.blizzard.com[Blizzard Entertainment]
 
-== Announcment if Discontinuation of Windows DX9 Support 
+== Announcement if Discontinuation of Windows DX9 Support 
 
-image::BlizzHOTSdx9Forum.png[Blizzard Forum DX9 Announcment]
+image::BlizzHOTSdx9Forum.png[Blizzard Forum DX9 Announcement]
 
 == Forum Usage Guidelines
 

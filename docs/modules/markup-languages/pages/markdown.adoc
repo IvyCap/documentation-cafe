@@ -210,8 +210,8 @@ I thinks you should use an `<addr>` element here instead.
 <!-- This comment will not show in rendered markdown -->
 ----
 
-== Ignoring Markdown Formating
-Add a `\` before and after the formating marks to stop the fromating from being rendered.
+== Ignoring Markdown Formatting
+Add a `\` before and after the formatting marks to stop the formattingfrom being rendered.
 ----
 This text will not show as \**bold**\ or \*italics*\ in rendered markdown. 
 ----
