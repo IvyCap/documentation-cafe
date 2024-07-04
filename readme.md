@@ -60,19 +60,19 @@ The things you need before installing the software.
 
 ## Build
 
-A step by step guide that will tell you how to get the development environment up and running.
+A step by step guide that will tell you how to get the development environment up and running. 
+Build is located in the documentation-cafe/docCafeSite/build/site folder
 
 ```
-$ git clone
-$ Install Antora
-$ npm i -g @antora/cli@3.1 @antora/site-generator@3.1
-$ Move to DOCUMENTATION_CAFE/Docs folder
-$ cd DOCUMENTATION_CAFE/Docs
-$ Run Antora
+$ git clone https://github.com/IvyCap/documentation-cafe.git
+$ git clone https://github.com/IvyCap/documentation-cafe-ui.git
+$ cd documentation-cafe/docCafeSite
+$ npx antora --fetch documentationCafe.yml
 ```
 
-## License
- <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Documentation Cafe</span> by <span property="cc:attributionName">KRM</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+
+## License 
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Documentation Cafe © 2024</span> by <span property="cc:attributionName">KRM</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
