@@ -1,7 +1,7 @@
 name: documentation-cafe
 title: Documentation Cafe
 version: latest
-display_version: default
+display_version: latest
 asciidoc:
   attributes:
     source-language: asciidoc@
@@ -9,9 +9,3 @@ asciidoc:
     listing-caption: Example@
 nav:
   - modules/ROOT/nav-welcome.adoc
-  - modules/drinks/nav-drinks.adoc
-  - modules/food/nav-food.adoc
-  - modules/markup-languages/nav-markup-lang.adoc
-  - modules/git/nav-git.adoc
-  - modules/thoughts/nav-thoughts.adoc
-  - modules/portfolio/nav-portfolio.adoc

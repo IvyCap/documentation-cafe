@@ -1,7 +1,32 @@
 // * xref:index.adoc[Hello & Welcome]
 
 * xref:bar.adoc[Bar Counter]
+** xref:ROOT:bar.adoc[Food]
+*** xref:ROOT:bar.adoc[Spreads]
+**** xref:food:apple-butter.adoc[Apple Butter]
+
+** xref:ROOT:bar.adoc[Drink Recipes]
+*** xref:ROOT:bar.adoc[Coffee]
+**** xref:drinks:french-press.adoc[French Press]
+**** xref:drinks:bulletish-coffee.adoc[Bulletish Coffee]
+*** xref:ROOT:bar.adoc[Cocktails]
+**** xref:drinks:winters-kiss.adoc[Winter's Kiss]
 
 * xref:library.adoc[Library]
+** xref:ROOT:library.adoc[Markup Languages]
+*** xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
+*** xref:markup-languages:markdown.adoc[Markdown Quick Reference Guide]
+
+** xref:ROOT:library.adoc[Git]
+*** xref:git:git-quick-guide.adoc[Git Quick Reference Guide]
+
+** xref:ROOT:library.adoc[Troubleshooting Philosophy]
+*** xref:thoughts:troubleshooting.adoc[Troubleshooting: Working the Problem]
+
 
 * xref:portfolio.adoc[Portfolio]
+** xref:portfolio:guides.adoc[Guides for Administrators]
+** xref:portfolio:enduserTroubleshooting.adoc[End-user Troubleshooting]
+** xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
+** xref:portfolio:apidoc.adoc[API Documentation]
+** xref:portfolio:tldr.adoc[tldr]
