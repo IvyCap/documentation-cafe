@@ -23,7 +23,6 @@ https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 == Certifications
 Foundations of Project Management:: Google, Dec 2022
 
-
 Certified Scrum Master (CSM):: ScrumAlliance, Nov 2022
 
 Red Hat Certified System Administrator (RHCSA): Red Hat Enterprise Linux 7:: Red Hat, June 2018

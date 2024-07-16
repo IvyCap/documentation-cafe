@@ -25,8 +25,9 @@
 
 
 * xref:portfolio.adoc[Portfolio]
-** xref:portfolio:guides.adoc[Guides for Administrators]
-** xref:portfolio:enduserTroubleshooting.adoc[End-user Troubleshooting]
-** xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
-** xref:portfolio:apidoc.adoc[API Documentation]
-** xref:portfolio:tldr.adoc[tldr]
+** xref:portfolio:tw-projects.adoc[Technical Writing Projects]
+*** xref:portfolio:guides.adoc[Guides for Administrators]
+*** xref:portfolio:enduserTroubleshooting.adoc[End-user Troubleshooting]
+*** xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
+*** xref:portfolio:apidoc.adoc[API Documentation]
+*** xref:portfolio:tldr.adoc[tldr]

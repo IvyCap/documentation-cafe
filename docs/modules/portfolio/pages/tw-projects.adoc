@@ -1,0 +1,32 @@
+= Technical Writing Projects
+
+== Employer Projects
+Below are examples of work I have completed for employers
+
+xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
+
+xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrators]
+
+xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
+
+xref:portfolio:apidoc.adoc[API Documentation using OpenAPI and Swagger]
+
+== Open Source Projects
+Below are examples of work I have completed for open source projects
+
+xref:portfolio:tldr.adoc[tldr] is an open source project to create simplified man(manual) pages.
+
+== Personal Projects
+Below are examples of work I have completed for myself
+
+xref:ROOT:index.adoc[Documentaion Cafe] is a site I created to document my interests and practice my technical writing skills.
+
+* xref:thoughts:troubleshooting.adoc[Troubleshooting: Working the Problem]
+
+* xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
+
+* xref:markup-languages:markdown.adoc[Markdown Quick Reference Guide]
+
+* xref:git:git-quick-guide.adoc[Git Quick Reference Guide]
+
+https://krmlab.itch.io/after-the-goons[After the Goons, window=blank] is a post-apocalyptic mutant animal table-top roleplaying game.
