@@ -1,32 +1,7 @@
-// * xref:index.adoc[Hello & Welcome] 
+// * xref:index.adoc[Hello & Welcome]
 
 * xref:bar.adoc[Bar Counter]
 
 * xref:library.adoc[Library]
 
 * xref:portfolio.adoc[Portfolio]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

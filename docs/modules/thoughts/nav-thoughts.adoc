@@ -1,0 +1,2 @@
+* xref:ROOT:library.adoc[Troubleshooting Philosophy]
+** xref:troubleshooting.adoc[Troubleshooting: Working the Problem]

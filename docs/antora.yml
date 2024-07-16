@@ -8,10 +8,10 @@ asciidoc:
     xrefstyle: short@
     listing-caption: Example@
 nav:
-- modules/ROOT/nav-welcome.adoc
-- modules/drinks/nav-drinks.adoc
-- modules/food/nav-food.adoc
-- modules/markup-languages/nav-markup-lang.adoc
-- modules/git/nav-git.adoc
-- modules/portfolio/nav-portfolio.adoc
-
+  - modules/ROOT/nav-welcome.adoc
+  - modules/drinks/nav-drinks.adoc
+  - modules/food/nav-food.adoc
+  - modules/markup-languages/nav-markup-lang.adoc
+  - modules/git/nav-git.adoc
+  - modules/thoughts/nav-thoughts.adoc
+  - modules/portfolio/nav-portfolio.adoc
