@@ -1,0 +1,11 @@
+= Usfull Linux Commands
+
+== Sudo!!
+This is a command I find my self using  alot. If you ever forget to add sudo to the begining of a command you typed sudo !! will rerun the previous command with sudo.
+ ----
+ $ apt upgrade
+ requires sudo privalages
+ $ sudo !!
+ password:
+ sudo apt upgrade
+ ----
