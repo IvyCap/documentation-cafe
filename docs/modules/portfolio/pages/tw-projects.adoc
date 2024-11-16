@@ -9,7 +9,7 @@ xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrat
 
 xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
 
-xref:portfolio:apidoc.adoc[API Documentation using OpenAPI and Swagger]
+xref:portfolio:apidoc.adoc[API Documentation by using OpenAPI and Swagger]
 
 == Open Source Projects
 Below are examples of work I have completed for open source projects

@@ -1,7 +1,7 @@
 = Useful Linux Commands
 
 == Sudo!!
-This is a command I find myself using a lot. If you ever forget to add sudo to the beginning of a command you typed sudo !! will rerun the previous command with sudo.
+This is a command you might find yourself using a bunch. If you ever forget to add sudo to the beginning of a command you typed sudo !! will rerun the previous command with sudo.
  ----
  $ apt upgrade
  requires sudo privileges

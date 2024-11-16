@@ -2,7 +2,7 @@
 
 image::nycLibrary.jpg[New York Public Library,640,480]
 
-Welcome to the Documentation Cafe Library. Currently the library consists of guides I have created for myself to assist with my professional and personal projects.
+Welcome to the Documentation Cafe Library. Currently the library consists of guides created for myself to assist with my professional and personal projects.
 
 == Subjects
 === Troubleshooting Philosophy

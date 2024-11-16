@@ -1,6 +1,6 @@
 = Markdown Quick Reference Guide
 
-Markdown is a lightweight markup language created in 2004. It was designed to convert easy to write text to html or xhtml. The details of the current specification known as https://commonmark.org/[CommanMark] are https://spec.commonmark.org/[found here]. To add additional functionality several different flavors of Markdown have been developed over the years. This guide is based on the https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax[GitHub Flavored markdown]
+Markdown is a lightweight markup language created in 2004. It is designed to convert easy to write text to html or xhtml. The details of the current specification known as https://commonmark.org/[CommanMark] you can https://spec.commonmark.org/[find here]. To add additional functionality different flavors of Markdown were developed over the years. This guide is based on the https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax[GitHub Flavored markdown]
 
 
 == Text Formatting
@@ -199,11 +199,11 @@ this is a code block
 this is a code block
 ----
 
-== In Line Code
+== Inline Code
 ----
-I thinks you should use an `<addr>` element here instead.
+You can use an `<addr>` element here instead.
 ----
-I thinks you should use an `<addr>` element here instead.
+You can use an `<addr>` element here instead.
 
 == Hidden Content
 ----
@@ -211,7 +211,7 @@ I thinks you should use an `<addr>` element here instead.
 ----
 
 == Ignoring Markdown Formatting
-Add a `\` before and after the formatting marks to stop the formatting from being rendered.
+Add a `\` before and after the formatting marks to stop the formatting from rendering.
 ----
 This text will not show as \**bold**\ or \*italics*\ in rendered markdown. 
 ----

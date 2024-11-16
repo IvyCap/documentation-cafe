@@ -7,12 +7,12 @@ https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 == Technical Writing Skills and Tools
 * AsciiDoc, Markdown
 * OpenAPI, YAML, JSON
-* Antora, Swagger, AsciiDoctor-PDF, Vale
+* Antora, Swagger, Asciidoctor-PDF, Vale
 * GitHub, GitLab, Git, Jira
 * Confluence, WordPress, Zendesk, Salesforce
 * VS Code, Google Suite, LibreOffice
 
-== Additional Technical Skills and Tools
+== Technical Skills and Tools
 * Linux, Windows, macOS, command line
 * Docker, AWS, Azure, Digital Ocean
 * Bash Shell Scripting, RegEx, HTML, XML, CCS, JavaScript, Python, Rust
@@ -37,7 +37,7 @@ xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrat
 
 xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
 
-xref:portfolio:apidoc.adoc[API Documentation using OpenAPI and Swagger]
+xref:portfolio:apidoc.adoc[API Documentation by using OpenAPI and Swagger]
 
 === Open Source Projects
 Below are examples of work I have completed for open source projects

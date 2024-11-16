@@ -19,7 +19,7 @@ info:
     * Get call events
     * Hangup and dynamically trigger call recording (on supporting phone systems)
 
-    You can navigate to specific topics in the left hand menu and then choose the corresponding programming language on the right. If we’re missing your favorite or required language, let us know. Our goal is to get you rolling as quickly and easily as possible.
+    You can navigate to specific topics in the left hand menu and then choose the corresponding programming language on the right. If we're missing your favorite or required language, let us know. Our goal is to get you rolling as quickly and easily as possible.
 
     *Glossary*
 
@@ -226,13 +226,13 @@ paths:
                   
                     **primaryExtension** 	Primary extension of current user, as name string. Omitted from the response if not present.
                     
-                    **timezone** 	Timezone string, in format of IANA time zone database entrier. Fallback value is user’s organization timezone.
+                    **timezone** 	Timezone string, in format of IANA time zone database entrier. Fallback value is user's organization timezone.
                     
-                    **dateFormat** 	Date format to use, as defined by moment.js string format. Defaults to ‘YYYY-MM-DD’.
+                    **dateFormat** 	Date format to use, as defined by moment.js string format. Defaults to 'YYYY-MM-DD'.
                     
-                    **timeFormat** 	Time format to use, as defined by moment.js string format. Defaults to ‘hh’.
+                    **timeFormat** 	Time format to use, as defined by moment.js string format. Defaults to 'hh'.
                     
-                    **locale** 	User IETF language tag, as defined in BCP 47. Fallback value is user’s organization locale. Note: underscores instead of dashes in locale strings are allowed and can be returned, i.e. “en_US”.
+                    **locale** 	User IETF language tag, as defined in BCP 47. Fallback value is user's organization locale. Note: underscores instead of dashes in locale strings are allowed and can be returned, i.e. “en_US”.
                     
                     **temperatureUnit** 	Temperature unit to use, one of “celsius” or “fahrenheit”. Defaults to “celsius”.
 
@@ -466,7 +466,7 @@ paths:
       tags:
         - organizations
       summary: Get data of specified organization.
-      description: Get data of specified organization. Only data of current user’s organization can be fetched.
+      description: Get data of specified organization. Only data of current user's organization can be fetched.
       parameters:
         - name: organizationID
           in: path
@@ -490,7 +490,7 @@ paths:
         - organizations
       summary: Integration health check for organization
       description: |-
-        Perform integrations health check for current user’s organization.
+        Perform integrations health check for current user's organization.
 
         CRM and Phone System integration health check results are returned. One or both of the results can be omitted from the response, if configuration for them is not present at all.
       responses:
@@ -1529,7 +1529,7 @@ components:
 
         `Authorization: Bearer JWT myJWTaccessToken`
 
-        Use /users/login or /users/login-with-token endpoints to generate JWT token based on user’s username and password.
+        Use /users/login or /users/login-with-token endpoints to generate JWT token based on user's username and password.
 
         Alternative way to authenticate is using OAuth access tokens, broadly described in API v1 authentication section. See API v2 OAuth endpoints to obtain and/or refresh OAuth authentication tokens.
 

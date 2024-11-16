@@ -5,8 +5,8 @@ site:
 content:
   sources: 
   - url: ../
-    branches: [draft]
-    start_path: docs 
+    branches: [main]
+    start_path: docs
 ui: 
   bundle:
     url: ../../documentation-cafe-ui/build/ui-bundle.zip

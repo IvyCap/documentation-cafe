@@ -1,6 +1,6 @@
 name: doc-cafe
 title: Documentation Cafe
-version: latest
+version: '0.2.0'
 display_version: latest
 asciidoc:
   attributes:

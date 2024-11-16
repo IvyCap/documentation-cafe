@@ -4,7 +4,7 @@ Git is a distributed version control software used for tracking change to any gr
 
 == Starting a Project
 === git clone
-Copy/download a repository to local machine
+Copy and download a repository to local machine
 
 .HTTPS clone
 ----
@@ -186,10 +186,6 @@ git log
 ----
 git checkout {UUID}
 ----
-.Move to the master commit
-----
-git checkout master
-----
 .Check out a tags
 ----
 git checkout {TagName}
@@ -215,7 +211,7 @@ git restore {file}
 ----
 git merge {SourceBranch}
 ----
-.Abort a conflicting merge
+.Cancel a conflicting merge
 ----
 git merge --abort
 ----
@@ -267,7 +263,7 @@ git log --graph --oneline
 ----
 
 == Stages
-* **Unstaged** - made changes that may not be kept
+* **Unstaged** - Made changes that you are not sure you want to keep
 * **Staged** - Made changes that you are sure you want to keep
 * **Committed** - Defiantly want to keep changes
 * **Pushed** - Uploaded changes to remote repository
