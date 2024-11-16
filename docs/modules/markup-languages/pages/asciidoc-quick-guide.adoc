@@ -105,7 +105,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 == Lists
-=== Orderd Lists
+=== Ordered Lists
 ----
 . One
 . Two
@@ -231,7 +231,7 @@ video::local-video-file.mp4[]
 video::loccal-video-file.mp4[width=640,start=60,opts=autoplay]
 ----
 
-.Embedded Youtube
+.Embedded YouTube
 ----
 video::jfKfPfyJRdk[youtube]
 ----
@@ -290,7 +290,7 @@ Link to <<bookmark-a, bookmark-a>> anchor
 
 Go to the <<Lists>> section to learn more about lists
 
-To learn lamore about <<Text Formatting, formatting here>>
+To learn more about <<Text Formatting, formatting here>>
 
 Link to <<bookmark-a, bookmark-a>> anchor
 

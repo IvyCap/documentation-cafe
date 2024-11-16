@@ -22,8 +22,8 @@ video::jfKfPfyJRdk[youtube]
 a|* https://docs.asciidoctor.org[AsciiDoc, window=blank]
 * https://docs.antora.org[Antora, window=blank]
 * https://vale.sh[Vale]
-a|* https://github.com[Github, window=blank]
-* https://gitlab.com[Gitlab, window=blank]
+a|* https://github.com[GitHub, window=blank]
+* https://gitlab.com[GitLab, window=blank]
 a|* https://drive.google.com[Google Drive, window=blank]
 * https://gitlab.com/antora/antora-ui-default[Modified Antora Default Theme, window=blank]
 a|* https://code.visualstudio.com/[VS Code, window=blank]
@@ -31,7 +31,7 @@ a|* https://code.visualstudio.com/[VS Code, window=blank]
 |===
 
 === Contribute
-If you want to contribute to the Documentation Cafe, please https://github.com/IvyCap/documentation-cafe/issues/new[submit an issue on our Github page].
+If you want to contribute to the Documentation Cafe, please https://github.com/IvyCap/documentation-cafe/issues/new[submit an issue on our GitHub page].
 
 //==== Licsense 
 

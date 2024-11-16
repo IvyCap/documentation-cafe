@@ -16,8 +16,8 @@ git clone https://{serverAdress.xyz[port]/path/to/project/repoName.git}
 git clone ssh://{user@serverAddress.xyz[port]:/path/to/project/repoName.git}
 ----
 
-=== git clone private Github repo with MFA enabled
-First you will need to obtain a Personal Access Token (PTA) from your Github account. Settings > Developer Settings > Personal access token > Fine-grained tokens. Add the token to the repo url as shown below. 
+=== git clone private GitHub repo with MFA enabled
+First you will need to obtain a Personal Access Token (PTA) from your GitHub account. Settings > Developer Settings > Personal access token > Fine-grained tokens. Add the token to the repo url as shown below. 
 
 .HTTPS clone with PAT
 ----
@@ -61,7 +61,7 @@ git config --global user.password"{password}"
 ----
 git config --local user.passowrd "{password}"
 ----
-.Enable global credetntial storage 
+.Enable global credential storage 
 ----
 git config --global credential.helper store
 ----

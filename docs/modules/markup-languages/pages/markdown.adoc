@@ -211,7 +211,7 @@ I thinks you should use an `<addr>` element here instead.
 ----
 
 == Ignoring Markdown Formatting
-Add a `\` before and after the formatting marks to stop the formattingfrom being rendered.
+Add a `\` before and after the formatting marks to stop the formatting from being rendered.
 ----
 This text will not show as \**bold**\ or \*italics*\ in rendered markdown. 
 ----

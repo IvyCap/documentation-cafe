@@ -8,14 +8,14 @@ https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 * AsciiDoc, Markdown
 * OpenAPI, YAML, JSON
 * Antora, Swagger, AsciiDoctor-PDF, Vale
-* Github, Gitlab, Git, Jira
-* Confluence, Wordpress, Zendesk, Salesforce
+* GitHub, GitLab, Git, Jira
+* Confluence, WordPress, Zendesk, Salesforce
 * VS Code, Google Suite, LibreOffice
 
 == Additional Technical Skills and Tools
 * Linux, Windows, macOS, command line
 * Docker, AWS, Azure, Digital Ocean
-* Bash Shell Scripting, RegEx, HTML, XML, CCS, Javascript, Python, Rust
+* Bash Shell Scripting, RegEx, HTML, XML, CCS, JavaScript, Python, Rust
 * SQL, MongoDB, Firebase
 * Postman, Rest APIs
 * LivePerson, Slack, Discord, MS Teams, Zoom, Google Chat
@@ -47,7 +47,7 @@ xref:portfolio:tldr.adoc[tldr] is an open source project to create simplified ma
 === Personal Projects
 Below are examples of work I have completed for myself
 
-xref:ROOT:index.adoc[Documentaion Cafe] is a site I created to document my interests and practice my technical writing skills.
+xref:ROOT:index.adoc[Documentation Cafe] is a site I created to document my interests and practice my technical writing skills.
 
 * xref:thoughts:troubleshooting.adoc[Troubleshooting: Working the Problem]
 
