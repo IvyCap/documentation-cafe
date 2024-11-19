@@ -1,0 +1,11 @@
+name: documentation-cafe
+title: Documentation Cafe
+version: latest
+display_version: latest
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    xrefstyle: short@
+    listing-caption: Example@
+nav:
+  - modules/ROOT/nav-welcome.adoc

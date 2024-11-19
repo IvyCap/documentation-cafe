@@ -1,0 +1,19 @@
+= Bulletish Coffee
+
+An emulsion of coffee, MCT oil, and coconut oil
+
+== Recipe
+|===
+|**Ingredients:** | **Equipment**
+| 2 cups French Press Coffee | Mixing Container (We us a 6 cup metal measuring cup)
+| 2 tbs Coconut Oil | Hand Mixer or Whisk 
+| 1 tbs MCT Oil | 
+|===
+
+. Prepare a xref:french-press.adoc[French Press coffee]
+. Add coconut oil and MCT oil in to a mixing container
+. Pour the coffee into the mixing container
+. With a hand mixer blend the mixture together
+. Mix the oils are thoroughly in the coffee
+. Serve the coffee in your favorite coffee cup
+

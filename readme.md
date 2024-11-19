@@ -65,7 +65,7 @@ Build is located in the documentation-cafe/docCafeSite/build/site folder
 
 ```
 $ git clone https://github.com/IvyCap/documentation-cafe.git
-$ git clone https://github.com/IvyCap/documentation-cafe-ui.git
+$ git clone https://gitlub.com/IvyCap/documentation-cafe-ui.git
 $ cd documentation-cafe/docCafeSite
 $ npx antora --fetch documentationCafe.yml
 ```

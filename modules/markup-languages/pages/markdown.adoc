@@ -1,0 +1,219 @@
+= Markdown Quick Reference Guide
+
+Markdown is a lightweight markup language created in 2004. It is designed to convert easy to write text to html or xhtml. The details of the current specification known as https://commonmark.org/[CommanMark] you can https://spec.commonmark.org/[find here]. To add additional functionality different flavors of Markdown were developed over the years. This guide is based on the https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax[GitHub Flavored markdown]
+
+
+== Text Formatting
+
+._Italics_
+----
+*italics*
+_italics_
+----
+
+.*Bold*
+----
+**bold**
+__bold__
+----
+
+.*_Bold & Italics_*
+----
+***Bold & Italics***
+----
+
+.*Bold & _Nested Italics_*
+----
+**Bold & _Nested Italics_**
+----
+
+.[.line-through]#Strikethrough#
+----
+~~strickthrough~~
+----
+.Sub Script
+----
+<sub>Sub Script Text</sub>
+----
+.Super Sub Script
+----
+<sup>Super Sub Script Text</sup>
+----
+.Hidden Text
+----
+<Hidden Text>
+----
+
+== Paragraph
+Create a paragraph by leaving a blank line between the text. 
+----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+----
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+== Links
+=== Web
+----
+[Documentation Cafe](https://documentation.cafe/index.html)
+----
+
+https://documentation.cafe/index.html[Documentation Cafe]
+
+=== File
+----
+[Git Guide](https://documentation.cafe/git-quick-guide.html)
+----
+
+https://documentation.cafe/git-quick-guide.html[Git Guide]
+
+=== Image
+----
+![Image](https://link.link/image.png)
+
+![Image](../path/to/image.png)
+
+----
+
+
+== Lists
+=== Unordered
+----
+* first item
+   * add four spaces for sub item
+* Second item
+----
+* first item
+** add four spaces for sub item
+* Second item
+
+----
+- first item in the list
+- second item in the list
+    - add 4 spaces to indent sub item in list
+----
+
+* first item in the list
+* second item in the list
+** add 4 spaces to indent sub item in list
+
+
+=== Ordered
+----
+1. First item
+2. Second item
+3. Third item
+----
+. First item
+. Second item
+. Third item
+
+=== Mixed
+----
+1. First item
+    - sub bulleted item. add 4 spaces
+2. second item
+    - add 4 spaces to indent sub item in list
+        * add additional 4 spaces
+----
+. First item
+** sub bulleted item. add 4 spaces
+. second item
+** add 4 spaces to indent sub item in list
+*** add additional 4 spaces
+
+=== Task
+----
+- [x] Task 1
+- [x] Task 2
+- [ ] Task 3
+----
+
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
+
+
+== Headers
+----
+# First tier header
+## Second tier header
+### Third tier header
+#### Forth tier header
+##### five tier header
+###### sixth tier header
+## Second tier header
+----
+
+== Horizontal line
+----
+Three hyphens
+
+--- 
+
+Three asterisks
+
+*** 
+
+Three underscores
+
+___ 
+----
+
+Three hyphens
+
+--- 
+
+Three asterisks
+
+*** 
+
+Three underscores
+
+___ 
+
+
+== Quotes
+----
+> This is quoted text
+>-- Some Person
+----
+
+The quote will look like this:
+
+"This is quoted text"
+-- Some Person
+
+== Code Block
+3 backticks above an below code.  
+----
+```
+this is a code block
+```
+----
+----
+this is a code block
+----
+
+== Inline Code
+----
+You can use an `<addr>` element here instead.
+----
+You can use an `<addr>` element here instead.
+
+== Hidden Content
+----
+<!-- This comment will not show in rendered markdown -->
+----
+
+== Ignoring Markdown Formatting
+Add a `\` before and after the formatting marks to stop the formatting from rendering.
+----
+This text will not show as \**bold**\ or \*italics*\ in rendered markdown. 
+----
+
+This text will not show as \\**bold** or \*italics* in rendered markdown. 

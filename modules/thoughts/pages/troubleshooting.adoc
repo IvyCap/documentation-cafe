@@ -1,0 +1,68 @@
+= Troubleshooting: Working the Problem
+
+
+*“Let's work the problem, people. Let's not make things worse by guessing.”*
+
+*-- Apollo 13. Dir. Ron Howard. Universal Pictures 1995*
+
+After the explosion on the command module in the movie Apollo 13, Gene Kranz the flight director told the people at mission control to “work the problem..”.   Working the problem is a methodology that came out of the aerospace industry on how to troubleshoot and fix a problem. I use this methodology for a basis on how I troubleshoot problems. Below is my version of Working the Problem.
+
+
+== Keys
+
+* Stay Focused
+** Focus on the problem at hand.
+** Don't get lost down side paths
+* Follow the Process
+** The troubleshooting process is your friend. It will help you solve the issue
+* Start Simple
+** Never assume the simple/basic troubleshooting steps were done, check them yourself
+** Never ask a customer to try complex steps before trying any simpler steps
+** Work your why through the troubleshooting steps from simple common, complex common, simple uncommon, and then to complex uncommon
+** If there is a known issue and troubleshooting steps try that first before following the above steps
+* Don't take what a Customer says Literally
+** Customers don't know the product like we do
+** They will describe problems and use terms differently than we would
+* Ask the Customer Clarifying Questions
+** Don't rely on what the customer initially tells you. They are likely unintentionally leaving out details/information we need
+* Re-create the Issue
+** Knowing how to re-create the problem can help you determine a solution, or the troubleshooting steps to try
+* Document Everything
+** Record all the troubleshooting steps and their outcomes
+** Take Video and Screenshots of the problem
+** Gather and attach logs to the support and escalation tickets
+* Use Your Troubleshooting Tools
+** The troubleshooting tools we have access to can help you determine the cause of an issue, and direct you to the troubleshooting steps to attempt
+* Read the Documentation
+** There is likely internal documentation that can help you solve the problem
+** Use search engines, there is a good chance someone else has experienced this issue and solved it
+* Ask Co-Workers Questions and for Assistance
+** Reach out to your co-works, as there is a chance that one of us has experienced this issue before.
+** Use Internal Chat, Daily Stand Up meetings or team meetings
+
+== The Troubleshooting Process
+
+. Define the Problem
+* Don't just rely on the customers and users description of the problem
+* Customers and Users don't know our product like we do and will user different terms than we would use
+* If possible, re-create the behavior and problem yourself
+. Goals and Objectives
+* What is the required behavior for the customer or user
+* What is the required behavior based on what we know of the product
+. Investigate the Problem
+* Use our tools to document the behavior, not just from the customer's point of view
+* User our resources to gather information: Internal Documentation, Support Site, Internal Chat, Google search...
+. Determine Troubleshooting Steps
+* Check the Simple things first before moving on to more complicated troubleshooting
+* Test more common solutions before testing uncommon solutions
+. Evaluate the outcomes of the Troubleshooting Steps
+* Based on the outcome of the troubleshooting steps used, determine the next steps
+. Document the Troubleshooting Steps
+* Document the troubleshootings steps tried and the results of the steps
+* Gather and document screenshots, video, logs...
+. Escalate the Problem
+* If you have reached the point where you are no longer able to troubleshoot the problem escalate the issue to the Tier 2 (T2) support queue or create a Jira ticket in the appropriate project
+* Set the proper customer expectations
+* If escalating to T2: “Thank you for all the details we've captured to this point. I'm going to now escalate this to a Senior member of our team to look into this further.” - Gauge urgency - unless outage (24-48 hours) to hear back from escalated Support
+* If escalating to a developer “Thank you for all the details we've captured to this point. This does appear to be an issue that will require prioritization and scoping from our Engineering team. Unfortunately, they are already in a current sprint, so we will work to get this to make one of the next sprints if they are capable against their current list of priorities.” - Gauge urgency - unless outage (“this can take 2 weeks to hear back”)
+* If escalating to a cloud operations: “Thank you for all the details we've captured to this point. This will need to have a more senior member of our Cloud Operations team's level of access to complete this task. We will follow-up in the next 24-48 hours.” - Gauge urgency - if urgent, escalate immediately

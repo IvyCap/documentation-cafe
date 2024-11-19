@@ -1,0 +1,60 @@
+= My Technical Writing Portfolio
+
+Hello, my name is Kyle. My career has spanned many different technical positions where I have utilized my technical writing skills to create documentation for technical and non-technical audiences.
+
+https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
+
+== Technical Writing Skills and Tools
+* AsciiDoc, Markdown
+* OpenAPI, YAML, JSON
+* Antora, Swagger, Asciidoctor-PDF, Vale
+* GitHub, GitLab, Git, Jira
+* Confluence, WordPress, Zendesk, Salesforce
+* VS Code, Google Suite, LibreOffice
+
+== Technical Skills and Tools
+* Linux, Windows, macOS, command line
+* Docker, AWS, Azure, Digital Ocean
+* Bash Shell Scripting, RegEx, HTML, XML, CCS, JavaScript, Python, Rust
+* SQL, MongoDB, Firebase
+* Postman, Rest APIs
+* LivePerson, Slack, Discord, MS Teams, Zoom, Google Chat
+
+== Certifications
+Foundations of Project Management:: Google, Dec 2022
+
+Certified Scrum Master (CSM):: ScrumAlliance, Nov 2022
+
+Red Hat Certified System Administrator (RHCSA): Red Hat Enterprise Linux 7:: Red Hat, June 2018
+
+== Technical Writing Projects
+=== Employer Projects
+Below are examples of work I have completed for employers
+
+xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
+
+xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrators]
+
+xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
+
+xref:portfolio:apidoc.adoc[API Documentation by using OpenAPI and Swagger]
+
+=== Open Source Projects
+Below are examples of work I have completed for open source projects
+
+xref:portfolio:tldr.adoc[tldr] is an open source project to create simplified man(manual) pages.
+
+=== Personal Projects
+Below are examples of work I have completed for myself
+
+xref:ROOT:index.adoc[Documentation Cafe] is a site I created to document my interests and practice my technical writing skills.
+
+* xref:thoughts:troubleshooting.adoc[Troubleshooting: Working the Problem]
+
+* xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
+
+* xref:markup-languages:markdown.adoc[Markdown Quick Reference Guide]
+
+* xref:git:git-quick-guide.adoc[Git Quick Reference Guide]
+
+https://krmlab.itch.io/after-the-goons[After the Goons, window=blank] is a post-apocalyptic mutant animal table-top roleplaying game.
