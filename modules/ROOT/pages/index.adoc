@@ -17,7 +17,7 @@ The house music is by Lofi Girl, which you can listen to by clicking the video b
 video::jfKfPfyJRdk[youtube]
 
 == This Site is Built Using:
-[cols="4", frame=none, grid=none] 
+[cols="3", frame=none, grid=none] 
 |===
 a|* https://docs.asciidoctor.org[AsciiDoc, window=blank]
 * https://docs.antora.org[Antora, window=blank]

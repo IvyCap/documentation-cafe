@@ -3,5 +3,7 @@ package-lock.json
 package.json
 node_modules/
 docCafeSite/build/
-styles/Google
+styles/RedHat
 styles/write-good
+styles/Readability
+build/

@@ -18,7 +18,7 @@ After the explosion on the command module in the movie Apollo 13, Gene Kranz the
 * Start Simple
 ** Never assume the simple/basic troubleshooting steps were done, check them yourself
 ** Never ask a customer to try complex steps before trying any simpler steps
-** Work your why through the troubleshooting steps from simple common, complex common, simple hard, and then to complex hard
+** Work your why through the troubleshooting steps from simple common, complex common, simple uncommon, and then to complex uncommon
 ** If there is a known issue and troubleshooting steps try that first before following the above steps
 * Don't take what a Customer says Literally
 ** Customers don't know the product like we do
@@ -26,7 +26,7 @@ After the explosion on the command module in the movie Apollo 13, Gene Kranz the
 * Ask the Customer Clarifying Questions
 ** Don't rely on what the customer initially tells you. They are likely unintentionally leaving out details/information we need
 * Re-create the Issue
-** Knowing how to recreate the problem can help you determine a solution, or the troubleshooting steps to try
+** Knowing how to re-create the problem can help you determine a solution, or the troubleshooting steps to try
 * Document Everything
 ** Record all the troubleshooting steps and their outcomes
 ** Take Video and Screenshots of the problem
