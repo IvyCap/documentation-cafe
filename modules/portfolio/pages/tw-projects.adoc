@@ -29,4 +29,4 @@ xref:ROOT:index.adoc[Documentation Cafe] is a site I created to document my inte
 
 * xref:git:git-quick-guide.adoc[Git Quick Reference Guide]
 
-https://krmlab.itch.io/after-the-goons[After the Goons, window=blank] is a post-apocalyptic mutant animal table-top roleplaying game.
+https://analoglabs.itch.io/[Analog Labs, window=blank] I design, write, and layout tabletop role-playing games
