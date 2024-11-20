@@ -64,10 +64,9 @@ A step by step guide that will tell you how to get the development environment u
 Build is located in the documentation-cafe/docCafeSite/build/site folder
 
 ```
-$ git clone https://github.com/IvyCap/documentation-cafe.git
-$ git clone https://gitlub.com/IvyCap/documentation-cafe-ui.git
-$ cd documentation-cafe/docCafeSite
-$ npx antora --fetch documentationCafe.yml
+$ git clone https://github.com/IvyCap/documentation-cafe-builder.git
+$ cd documentation-cafe-builder/
+$ npx antora --fetch doccafe-playbook.yml
 ```
 
 
