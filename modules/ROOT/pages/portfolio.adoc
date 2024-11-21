@@ -1,24 +1,77 @@
-= My Technical Writing Portfolio
+= Hello and Welcome to My Portfolio
 
-Hello, my name is Kyle. My career has spanned many different technical positions where I have utilized my technical writing skills to create documentation for technical and non-technical audiences.
+*Technical Writer - Technical Leader - Project Manager - Enterprise Customer Advocate*
+
+My career has spanned many different technical customer facing positions that cover the entire end to end SaaS product's software development life cycle and long term support. 
+
+I have 14 plus years experience creating internal and external user focused technical documentation for SaaS products. I have managed and created knowledge bases and technical documentation for 12+ SaaS products and 14+ integrationsI specialize in communication between Technical and Non-Technical audiences.
 
 https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 
-== Technical Writing Skills and Tools
-* AsciiDoc, Markdown
-* OpenAPI, YAML, JSON
-* Antora, Swagger, Asciidoctor-PDF, Vale
-* GitHub, GitLab, Git, Jira
-* Confluence, WordPress, Zendesk, Salesforce
-* VS Code, Google Suite, LibreOffice
+== Projects
+xref:portfolio:tw-projects.adoc[Technical Writing Projects] - Employer, Open Source, and Personal Technical Writing Projects
 
-== Technical Skills and Tools
-* Linux, Windows, macOS, command line
-* Docker, AWS, Azure, Digital Ocean
-* Bash Shell Scripting, RegEx, HTML, XML, CCS, JavaScript, Python, Rust
-* SQL, MongoDB, Firebase
-* Postman, Rest APIs
-* LivePerson, Slack, Discord, MS Teams, Zoom, Google Chat
+== Writing Specialties
+[cols="3", frame=none, grid=none]
+|===
+a|* Knowledge Bases
+* Administrator & User Guides
+* Integration guides
+a|* Help Desk Articles 
+* Standard Operating Procedures (SOPs)
+* How-To Articles 
+a|* Onboarding manuals
+* FAQs & Tutorials                      
+* API Documentation (OpenAPI, Swagger) 
+|===
+
+== Professional Skills
+[cols="3", frame=none, grid=none]
+|===
+a|* Technical Documentarian
+* Knowledge Management
+* Project Management
+* Technical to non-technical Communication
+* Self-starter & Self-managed
+* Remote Team Leadership
+a|* Cross-disciplined Team Collaboration
+* Software development
+* Software Release Management
+* Software Implementation & Configuration
+* Technical Diagnosis
+* Computer Networking
+a|* Enterprise Customer Support
+* Technical Account Management
+* Technical Manager
+* Fast Learner
+* Research
+* Customer Education
+|===
+
+== Technology Profile
+*Knowledge Management:* Salesforce, Zendesk, WordPress, Confluence, Antora
+
+*Documentation:* Markdown, AsciiDoc, Asciidoctor, OpenAPI
+
+*Communication & Collaboration:* LivePerson, Slack, Discord, Microsoft Teams, Zoom, Google Chat
+
+*CRMs:* Salesforce, Zendesk, Dynamics, Oracle Netsuite
+
+*Telephone Systems:* Avaya AES, Cisco Broadsoft, RingCentral, Nice InContact
+
+*Operating Systems Administration:* Linux(Ubuntu, Red Hat, SUSE…), Windows, macOS, Bash, Command Line
+
+*Data:* SQL, MongoDB(NoSQL), YAML, JSON
+
+*Cloud Computing:* Docker, AWS, Azure, Digital Ocean
+
+*Issue Tracking & Version Control:* Jira, git, GitHub, GitLab
+
+*Scripting & Programing:* Bash Shell Scripting, Regular Expression, Python, JavaScript
+
+*API:* Postman, OpenAPI, Swagger, Rest APIs
+
+*Authentication:* SAML, Oauth
 
 == Certifications
 Foundations of Project Management:: Google, Dec 2022
@@ -26,35 +79,3 @@ Foundations of Project Management:: Google, Dec 2022
 Certified Scrum Master (CSM):: ScrumAlliance, Nov 2022
 
 Red Hat Certified System Administrator (RHCSA): Red Hat Enterprise Linux 7:: Red Hat, June 2018
-
-== Technical Writing Projects
-=== Employer Projects
-Below are examples of work I have completed for employers
-
-xref:portfolio:knowledge.adoc[Announcements & Forum Guidelines]
-
-xref:portfolio:guides.adoc[Installation and Configuration Guides for Administrators]
-
-xref:portfolio:enduserTroubleshooting.adoc[Technical Troubleshooting Steps for End-Users]
-
-xref:portfolio:apidoc.adoc[API Documentation by using OpenAPI and Swagger]
-
-=== Open Source Projects
-Below are examples of work I have completed for open source projects
-
-xref:portfolio:tldr.adoc[tldr] is an open source project to create simplified man(manual) pages.
-
-=== Personal Projects
-Below are examples of work I have completed for myself
-
-xref:ROOT:index.adoc[Documentation Cafe] is a site I created to document my interests and practice my technical writing skills.
-
-* xref:thoughts:troubleshooting.adoc[Troubleshooting: Working the Problem]
-
-* xref:markup-languages:asciidoc-quick-guide.adoc[AsciiDoc Quick Reference Guide]
-
-* xref:markup-languages:markdown.adoc[Markdown Quick Reference Guide]
-
-* xref:git:git-quick-guide.adoc[Git Quick Reference Guide]
-
-https://krmlab.itch.io/after-the-goons[After the Goons, window=blank] is a post-apocalyptic mutant animal table-top roleplaying game.
