@@ -9,7 +9,7 @@ I have 14 plus years experience creating internal and external user focused tech
 https://www.linkedin.com/in/kylermonteith/[My LinkedIn Profile, window=blank]
 
 == Projects
-xref:portfolio:tw-projects.adoc[Technical Writing Projects] - Employer, Open-Source, and Personal Technical Writing Projects
+xref:portfolio:tw-projects.adoc[Technical Writing Projects] - Employer, Open Source, and Personal Technical Writing Projects
 
 == Writing Specialties
 [cols="3", frame=none, grid=none]
@@ -51,23 +51,23 @@ a|* Enterprise Customer Support
 == Technology Profile
 *Knowledge Management:* Salesforce, Zendesk, WordPress, Confluence, Antora
 
-*Documentation:* Markdown, AsciiDoc, AsciiDoctor, OpenAPI
+*Documentation:* Markdown, AsciiDoc, Asciidoctor, OpenAPI
 
-*Communication & Collaboration:* LivePerson, Slack, Discord, MS Teams, Zoom, Google Chat
+*Communication & Collaboration:* LivePerson, Slack, Discord, Microsoft Teams, Zoom, Google Chat
 
 *CRMs:* Salesforce, Zendesk, Dynamics, Oracle Netsuite
 
-*Phone Systems:* Avaya AES, Cisco Broadsoft, RingCentral, Nice InContact
+*Telephone Systems:* Avaya AES, Cisco Broadsoft, RingCentral, Nice InContact
 
 *Operating Systems Administration:* Linux(Ubuntu, Red Hat, SUSE…), Windows, macOS, Bash, Command Line
 
-*Data:* SQL, MongoDB(NoSQL), Yaml, json
+*Data:* SQL, MongoDB(NoSQL), YAML, JSON
 
 *Cloud Computing:* Docker, AWS, Azure, Digital Ocean
 
 *Issue Tracking & Version Control:* Jira, git, GitHub, GitLab
 
-*Scripting & Programing:* Bash Shell Scripting, RegEx, Python, JavaScript
+*Scripting & Programing:* Bash Shell Scripting, Regular Expression, Python, JavaScript
 
 *API:* Postman, OpenAPI, Swagger, Rest APIs
 
