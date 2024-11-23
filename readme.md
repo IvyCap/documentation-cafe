@@ -47,7 +47,7 @@ Documentation Cafe is a personal project with the following goals:
 
     * House my technical writing portfolio
     * Practice technical writing
-    * Document my interest
+    * Document my interests
 
 ## Prerequisites
 
